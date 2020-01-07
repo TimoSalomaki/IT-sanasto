@@ -5,7 +5,9 @@ IT-ala elää koko ajan ja uusia teknologioita tuodaan markkinoille koko ajan ki
 
 Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilpailevia käännöksiä. Näissä tapauksessa pyrin mahdollisuuksien mukaan valitsemaan yleisimmin käytössä olevan käännöksen, jotta lista pysyy konsistenttina ja helposti luettavana.
 
+
 ## Sisältö
+
 
 * [A](#a)
 * [B](#b)
@@ -13,6 +15,26 @@ Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilp
 * [D](#d)
 * [E](#e)
 * [F](#f)
+* [G](#g)
+* [H](#h)
+* [I](#i)
+* [J](#j)
+* [K](#k)
+* [L](#l)
+* [M](#m)
+* [N](#n)
+* [O](#o)
+* [P](#p)
+* [Q](#q)
+* [R](#r)
+* [S](#s)
+* [T](#t)
+* [U](#u)
+* [V](#v)
+* [W](#w)
+* [X](#x)
+* [Y](#y)
+* [Z](#z)
 * [Lähteet](#lähteet)
 
 
@@ -38,7 +60,7 @@ attribute | attribuutti
 Englanti | Suomi
 ---------| -----
 base class | kantaluokka
-basic (exception) guarantee | perustakuu
+basic guarantee | perustakuu
 bidirectional iterator | kaksisuuntainen iteraattori
 bitset | bittivektori
 bottom-up | kokoava jaottelu
@@ -96,7 +118,7 @@ dynamic binding | dynaaminen sitominen
 Englanti | Suomi
 ---------| -----
 encapsulation | kapselointi
-exception | poikkeustakuu
+exception | poikkeus
 exception guarantee | poikkeustakuu
 exception handler | poikkeuskäsittelijä
 exception neutrality | poikkeusneutraalius
@@ -116,6 +138,204 @@ function pointer | funktio-osoitin
 function template | funktiomalli
 function try block | funktion valvontalohko
 functor | funktio-olio
+
+
+### G
+
+Englanti | Suomi
+---------| -----
+garbage collection | roskienkeruu
+generalization | yleistäminen
+generic algorithm | geneerinen algoritmi
+generic programming | geneerinen ohjelmointi
+genericity | yleiskäyttöisyys
+getter | anna-jäsenfunktio
+
+
+### H
+
+Englanti | Suomi
+---------| -----
+header | otsikko
+hide | peittää
+
+
+### I
+
+Englanti | Suomi
+---------| -----
+identity | identiteetti
+inheritance | periytyminen
+inheritance hierarchy list | periytymishierarkia
+initialization list | alustuslista
+input iterator | syöttöiteraattori
+insert iterator | lisäys-iteraattori
+inserter | lisäys-iteraattori
+instantiation | instantiointi
+interface class | rajapintaluokka
+invalid iterator | kelvoton iteraattori
+invalidate | mitätöidä
+invariant | invariantti
+iterator | iteraattori
+iterator adaptor | iteraattorisovitin
+
+
+### J
+
+
+### K
+
+Englanti | Suomi
+---------| -----
+key | avain
+
+
+### L
+
+Englanti | Suomi
+---------| -----
+linear complexity | lineaarinen kompleksisuus
+list | lista
+logarithmic complexity | logaritminen kompleksisuus
+
+
+### M
+
+Englanti | Suomi
+---------| -----
+map | assosiaatiotaulu
+member function | jäsenfunktio
+member function template | jäsenfunktiomalli
+metaclass | metaluokka
+metafunction | metafunktio
+metaprogram | metaohjelma
+metaprogramming | metaohjelmointi
+method | metodi
+minimal guarantee | minimitakuu
+module | moduuli
+multimap | assosiaatiomonitaulu
+multiple inheritance | moniperiytyminen
+multiset | monijoukko
+
+
+### N
+
+Englanti | Suomi
+---------| -----
+namespace | nimiavaruus
+nothrow guarantee | nothrow-takuu
+
+
+### O
+
+Englanti | Suomi
+---------| -----
+order of growth | kertaluokka
+output iterator | tulostus-iteraattori
+overloading | kuormittaminen
+
+
+### P
+
+Englanti | Suomi
+---------| -----
+parent class | kantaluokka
+pattern language | mallikieli
+postcondition | jälkiehto
+precondition | esiehto
+pure virtual function | puhdas virtuaalifunktio
+
+
+### Q
+
+Englanti | Suomi
+---------| -----
+quadratic complexity | neliöllinen kompleksisuus
+
+
+### R
+
+Englanti | Suomi
+---------| -----
+random access iterator | hajasaanti-iteraattori
+range | väli
+re-usability | uudelleenkäytettävyys
+reference | viite
+reference copy | viitekopiointi
+reflection | reflektio
+repeated multiple inheritance | toistuva moniperiytyminen
+replicated multiple inheritance | erotteleva moniperiytyminen
+responsibility | vastuualue
+reverse iterator | käänteis-iteraattori
+
+
+### S
+
+Englanti | Suomi
+---------| -----
+scope resolution operator | näkyvyystarkenninoperaattori
+sequence | sarja
+sequence diagram | tapahtumasekvenssi
+set | joukko
+setter | aseta-jäsenfunktio
+shallow copy | matalakopiointi
+shared aggregate | jaettu kooste
+shared multiple inheritance | yhdistävä moniperiytyminen
+slicing | viipaloituminen
+smart pointer | älykäs osoitin
+software crisis | ohjelmistokriisi
+specialization | erikoistaminen
+state machine | tilakone
+static data member | luokkamuuttuja
+static member function | luokkafunktio
+static metaprogramming | käännösaikainen metaohjelmointi
+stream iterator | virtaiteraattori
+strong guarantee | vahva takuu
+subclass | aliluokka
+superclass | kantaluokka
+
+
+### T
+
+Englanti | Suomi
+---------| -----
+template | malli
+template metaprogramming | template-metaohjelmointi
+template specialization | mallin erikoistus
+temporary object | väliaikaisolio
+throw (exceptions) | heittää
+top-down | osittava jaottelu
+try-block | valvontalohko
+type cast | tyyppimuunnos
+
+
+### U
+
+Englanti | Suomi
+---------| -----
+unnamed namespace | nimeämätön nimiavaruus
+use case | käyttötapaus
+
+
+### V
+
+Englanti | Suomi
+---------| -----
+valid iterator | kelvollinen iteraattori
+vector | vektori
+virtual function | virtuaalifunktio
+
+
+### W
+
+
+### X
+
+
+### Y
+
+
+### Z
 
 
 ### Lähteet
