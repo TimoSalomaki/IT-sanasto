@@ -1,7 +1,7 @@
 # IT-sanasto
-Tämän projektin tarkoitus on kerätä yhteen mahdollisimman kattava ja ajantasainen IT-alan englanti-suomi -sanasto, jota voidaan käyttää pohjana uuden aineiston kirjoittamisessa sekä olemassaolevan materiaalin kääntämisessä. 
+Tämän projektin tarkoitus on kerätä yhteen ajantasainen IT-alan englanti-suomi -sanasto, jota voidaan käyttää pohjana uuden aineiston kirjoittamisessa sekä olemassaolevan materiaalin kääntämisessä. Sanastoon ei lisätä sokeasti kaikkia mahdollisia aiheeseen liittyviä termejä, vaan niiden lisäämisessä käytetään maalaisjärkeä. Liian suuresta sanastosta ei ole monellekaan hyötyä.
 
-IT-ala elää koko ajan ja uusia teknologioita tuodaan markkinoille koko ajan kiihtyvällä vauhdilla, joten joillekin sanoille ei välttämättä vielä ole vakiintunutta suomennusta. Tällöin sana voidaan lisätä listalle ilman käännöstä. Sopivan käännöksen ilmaantuessa ja vakiintuessa, voidaan se lisätä listalle.
+IT-ala elää koko ajan ja uusia teknologioita tuodaan markkinoille kiihtyvällä vauhdilla, joten joillekin sanoille ei välttämättä vielä ole vakiintunutta suomennusta. Tällöin sana voidaan lisätä alustavasti listalle ilman käännöstä. Sopivan käännöksen ilmaantuessa lista voidaan taas päivittää.
 
 Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilpailevia käännöksiä. Näissä tapauksessa pyrin mahdollisuuksien mukaan valitsemaan yleisimmin käytössä olevan käännöksen, jotta lista pysyy konsistenttina ja helposti luettavana.
 
@@ -48,11 +48,9 @@ adaptive system | mukautuva järjestelmä
 addon | lisäosa
 aggregate | kooste
 allocator | varain
-ambiguous | moniselitteinen
 amortized constant complexity | amortisoidusti vakioaikainen tehokkuus
 ancestor | esi-isä
 assignment operator | sijoitusoperaattori
-associative container | assosiatiivinen sisältö
 attribute | attribuutti
 authentication | todennus
 
@@ -62,7 +60,6 @@ authentication | todennus
 Englanti | Suomi
 ---------| -----
 base class | kantaluokka
-basic guarantee | perustakuu
 bidirectional iterator | kaksisuuntainen iteraattori
 bitset | bittivektori
 bottom-up | kokoava jaottelu
@@ -93,10 +90,11 @@ component | komponentti
 composite | kokoelma
 composite aggregate | muodostuminen
 const | vakio
-constant complexity | vakioaikainen tehokkuus
+constant complexity | vakioaikainen kompleksisuus
 constructor | rakentaja
-container | säiliö
+container | säiliö/kontti
 container adaptor | säiliösovitin
+continuous delivery | jatkuva toimitus
 conversion member function | muunnosjäsenfunktio
 cookie | eväste
 copy constructor | kopiorakentaja
@@ -128,7 +126,6 @@ Englanti | Suomi
 ---------| -----
 encapsulation | kapselointi
 exception | poikkeus
-exception guarantee | poikkeustakuu
 exception handler | poikkeuskäsittelijä
 exception neutrality | poikkeusneutraalius
 exception specification | poikkeusmääre
@@ -221,7 +218,7 @@ metafunction | metafunktio
 metaprogram | metaohjelma
 metaprogramming | metaohjelmointi
 method | metodi
-minimal guarantee | minimitakuu
+microservice | mikropalvelu
 module | moduuli
 multimap | assosiaatiomonitaulu
 multiple inheritance | moniperiytyminen
@@ -233,7 +230,6 @@ multiset | monijoukko
 Englanti | Suomi
 ---------| -----
 namespace | nimiavaruus
-nothrow guarantee | nothrow-takuu
 
 
 ### O
@@ -253,6 +249,7 @@ Englanti | Suomi
 parent class | kantaluokka
 pattern language | mallikieli
 plugin | lisäosa
+pointer | osoitin
 postcondition | jälkiehto
 precondition | esiehto
 proxy | välityspalvelin
@@ -289,7 +286,6 @@ Englanti | Suomi
 ---------| -----
 scope resolution operator | näkyvyystarkenninoperaattori
 screenshot | ruutukaappaus
-sequence | sarja
 sequence diagram | tapahtumasekvenssi
 server | palvelin
 set | joukko
@@ -299,7 +295,6 @@ shared aggregate | jaettu kooste
 shared multiple inheritance | yhdistävä moniperiytyminen
 slicing | viipaloituminen
 smart pointer | älykäs osoitin
-software crisis | ohjelmistokriisi
 specialization | erikoistaminen
 state machine | tilakone
 static data member | luokkamuuttuja
@@ -308,7 +303,6 @@ static metaprogramming | käännösaikainen metaohjelmointi
 stream | virta
 streaming | suoratoisto
 stream iterator | virtaiteraattori
-strong guarantee | vahva takuu
 subclass | aliluokka
 superclass | kantaluokka
 
