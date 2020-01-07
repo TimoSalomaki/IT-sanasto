@@ -35,7 +35,7 @@ Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilp
 * [X](#x)
 * [Y](#y)
 * [Z](#z)
-* [Lähteet](#lähteet)
+* [Ulkopuoliset lähteet](#ulkopuoliset-lähteet)
 
 
 ### A
@@ -338,6 +338,6 @@ virtual function | virtuaalifunktio
 ### Z
 
 
-### Lähteet
+### Ulkopuoliset lähteet
 
 - Olioiden ohjelmointi C++:lla - © 2012 Matti Rintala ja Jyke Jokinen ([Creative Commons Nimeä-Ei muutoksia-Epäkaupallinen 1.0 Suomi](http://creativecommons.org/licenses/by-nd-nc/1.0/fi/))
