@@ -45,6 +45,7 @@ Englanti | Suomi
 abstract base class | abstrakti kantaluokka
 actor | käyttäjärooli
 adaptive system | mukautuva järjestelmä
+addon | lisäosa
 aggregate | kooste
 allocator | varain
 ambiguous | moniselitteinen
@@ -53,6 +54,7 @@ ancestor | esi-isä
 assignment operator | sijoitusoperaattori
 associative container | assosiatiivinen sisältö
 attribute | attribuutti
+authentication | todennus
 
 
 ### B
@@ -65,6 +67,7 @@ bidirectional iterator | kaksisuuntainen iteraattori
 bitset | bittivektori
 bottom-up | kokoava jaottelu
 bridge | silta
+bug | ohjelmointivirhe
 
 
 ### C
@@ -74,6 +77,7 @@ Englanti | Suomi
 call by value | arvonvälitys
 call-through function | läpikutsufunktio
 catch (exceptions) | siepata
+certificate | varmenne
 class | luokka
 class definition | luokan esittely
 class hierarchy | luokkahierarkia
@@ -81,6 +85,7 @@ class invariant | luokkainvariantti
 class object | luokkaolio
 class template | luokkamalli
 class template partial specialization | luokkamallin osittaiserikoistus
+client | asiakasohjelma
 closure | sulkeuma
 commonality and variability analysis | pysyvyys- ja vaihtelevuusanalyysi
 compile-time complexity | käännösaikainen tehokkuus
@@ -93,6 +98,7 @@ constructor | rakentaja
 container | säiliö
 container adaptor | säiliösovitin
 conversion member function | muunnosjäsenfunktio
+cookie | eväste
 copy constructor | kopiorakentaja
 cursor | kohdistin
 
@@ -108,8 +114,11 @@ derived class | aliluokka
 descendant | jälkeläinen
 Design By Contract | sopimussuunnittelu
 design pattern | suunnittelumalli
+desktop | työpöytä
 destructor | purkaja
 double-ended queue | pakka
+drag and drop | raahaa ja pudota
+driver | ajuri
 dynamic binding | dynaaminen sitominen
 
 
@@ -129,6 +138,7 @@ exception specification | poikkeusmääre
 
 Englanti | Suomi
 ---------| -----
+feed | syöte
 forward declaration | ennakkoesittely
 forward iterator | eteenpäin-iteraattori
 framework | sovelluskehys
@@ -232,6 +242,7 @@ Englanti | Suomi
 ---------| -----
 order of growth | kertaluokka
 output iterator | tulostus-iteraattori
+operating system | käyttöjärjestelmä
 overloading | kuormittaminen
 
 
@@ -241,8 +252,10 @@ Englanti | Suomi
 ---------| -----
 parent class | kantaluokka
 pattern language | mallikieli
+plugin | lisäosa
 postcondition | jälkiehto
 precondition | esiehto
+proxy | välityspalvelin
 pure virtual function | puhdas virtuaalifunktio
 
 
@@ -267,6 +280,7 @@ repeated multiple inheritance | toistuva moniperiytyminen
 replicated multiple inheritance | erotteleva moniperiytyminen
 responsibility | vastuualue
 reverse iterator | käänteis-iteraattori
+root certificate | juurivarmenne
 
 
 ### S
@@ -274,8 +288,10 @@ reverse iterator | käänteis-iteraattori
 Englanti | Suomi
 ---------| -----
 scope resolution operator | näkyvyystarkenninoperaattori
+screenshot | ruutukaappaus
 sequence | sarja
 sequence diagram | tapahtumasekvenssi
+server | palvelin
 set | joukko
 setter | aseta-jäsenfunktio
 shallow copy | matalakopiointi
@@ -289,6 +305,8 @@ state machine | tilakone
 static data member | luokkamuuttuja
 static member function | luokkafunktio
 static metaprogramming | käännösaikainen metaohjelmointi
+stream | virta
+streaming | suoratoisto
 stream iterator | virtaiteraattori
 strong guarantee | vahva takuu
 subclass | aliluokka
@@ -299,6 +317,8 @@ superclass | kantaluokka
 
 Englanti | Suomi
 ---------| -----
+tab | välilehti
+taskbar | tehtäväpalkki
 template | malli
 template metaprogramming | template-metaohjelmointi
 template specialization | mallin erikoistus
@@ -315,6 +335,7 @@ Englanti | Suomi
 ---------| -----
 unnamed namespace | nimeämätön nimiavaruus
 use case | käyttötapaus
+user interface | käyttöliittymä
 
 
 ### V
@@ -341,3 +362,4 @@ virtual function | virtuaalifunktio
 ### Ulkopuoliset lähteet
 
 - Olioiden ohjelmointi C++:lla - © 2012 Matti Rintala ja Jyke Jokinen ([Creative Commons Nimeä-Ei muutoksia-Epäkaupallinen 1.0 Suomi](http://creativecommons.org/licenses/by-nd-nc/1.0/fi/))
+- Jyväskylän yliopisto Digipalvelut - Tietotekniikan sanasto
