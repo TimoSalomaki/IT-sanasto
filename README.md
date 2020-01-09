@@ -47,10 +47,14 @@ actor | käyttäjärooli
 adaptive system | mukautuva järjestelmä
 addon | lisäosa
 aggregate | kooste
+allocate | varata
 allocator | varain
 amortized constant complexity | amortisoidusti vakioaikainen tehokkuus
 ancestor | esi-isä
+argument | argumentti
+array | taulukko
 assignment operator | sijoitusoperaattori
+assembler | kokoaja
 attribute | attribuutti
 authentication | todennus
 
@@ -59,10 +63,17 @@ authentication | todennus
 
 Englanti | Suomi
 ---------| -----
+backend | :uk: *ei käännöstä*
 base class | kantaluokka
+batch | :warning:
 bidirectional iterator | kaksisuuntainen iteraattori
+binary | binääri
+bind | :warning:
+bit | bitti
 bitset | bittivektori
+boolean | totuusarvomuuttuja
 bottom-up | kokoava jaottelu
+bracket | sulku
 bridge | silta
 bug | ohjelmointivirhe
 
@@ -83,6 +94,7 @@ class object | luokkaolio
 class template | luokkamalli
 class template partial specialization | luokkamallin osittaiserikoistus
 client | asiakasohjelma
+clone (version control) | kloonata
 closure | sulkeuma
 commonality and variability analysis | pysyvyys- ja vaihtelevuusanalyysi
 compile-time complexity | käännösaikainen tehokkuus
@@ -253,7 +265,9 @@ pointer | osoitin
 postcondition | jälkiehto
 precondition | esiehto
 proxy | välityspalvelin
+pull (version control) | vetää
 pure virtual function | puhdas virtuaalifunktio
+push (version control) | työntää
 
 
 ### Q
@@ -338,6 +352,7 @@ Englanti | Suomi
 ---------| -----
 valid iterator | kelvollinen iteraattori
 vector | vektori
+version control | versionhallinta
 virtual function | virtuaalifunktio
 
 
