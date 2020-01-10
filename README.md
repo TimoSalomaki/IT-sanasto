@@ -314,6 +314,7 @@ random access iterator | hajasaanti-iteraattori
 random access memory (RAM) | työmuisti/keskusmuisti
 range | väli
 re-usability | uudelleenkäytettävyys
+regular expression | säännöllinen lauseke
 reference | viite
 reference copy | viitekopiointi
 reflection | reflektio
