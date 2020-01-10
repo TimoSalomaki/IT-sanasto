@@ -49,30 +49,29 @@ Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilp
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-abstract base class | abstrakti kantaluokka
-actor | käyttäjärooli
-adaptive system | mukautuva järjestelmä
-addon | lisäosa
-aggregate | kooste
-allocate | varata
-allocator | varain
+abstract base class | abstrakti kantaluokka | olio-ohjelmoinnissa luokka josta ei voi suoraan luoda ilmentymää. Vain luokasta peritystä aliluokasta voi luoda ilmentymän.
+adaptive system | mukautuva järjestelmä | joukko todellisia tai teoreettisia elementtejä, jotka muodostavat sellaisen kokonaisuuden, joka yhdessä pystyy vastaamaan ympäristön muutoksiin reagoivilla osillaan. 
+addon | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
+aggregate | kooste | erillisistä osista koostettu joukko
+allocate | varata | osoittaa tai varata resurssi tiettyä käyttökohdetta varten. Esimerkiksi, keskusmuistia voidaan varata sovellusta varten
+allocator | varain | komponentti joka varaa jotain resurssia, esim. keskusmuistia jotain käyttökohdetta varten
 amortized constant complexity | amortisoidusti vakioaikainen tehokkuus
 ancestor | esi-isä
-argument | argumentti
-array | taulukko
-assignment operator | sijoitusoperaattori
-assembler | kokoaja
-attribute | attribuutti
-authentication | todennus
+argument | argumentti | muuttuja, jolla välitetään tietoa funktiolle
+array | taulukko | tietorakenne, jossa peräkkäisiä alkioita voidaan käsitellä indeksoimalla
+assignment operator | sijoitusoperaattori | operaattori (esim '='), jonka avulla sijoitetaan arvo johonkin kohteeseen
+assembler | kokoaja | ohjelma matalan tason ohjelmointikielellä (assembly) kirjoitettujen ohjeiden muuttamiseksi konekoodiksi.
+attribute | attribuutti | määrite, ominaisuus
+authentication | todennus | käyttäjän (tai palvelun) identiteetin varmentaminen
 
 
 ### B
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-backend | :uk: *ei käännöstä*
-backdoor | takaovi
-base class | kantaluokka
+backend | :uk: *ei käännöstä* | osa tietojärjestelmää tai -sovellusta johon käyttäjällä ei ole suoraa yhteyttä, käytetään yleensä datan tallennukseen ja manipulointiin
+backdoor | takaovi | ominaisuus tai puute tietojärjestelmässä, joka antaa ei-sallituille tahoille yhteyden järjestelmään tai sen sisältämään dataan.
+base class | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi aliluokka periytyy
 batch | :warning:
 bidirectional iterator | kaksisuuntainen iteraattori
 binary | binääri
@@ -209,6 +208,7 @@ initialization list | alustuslista
 input iterator | syöttöiteraattori
 insert iterator | lisäys-iteraattori
 inserter | lisäys-iteraattori
+instance | ilmentymä/instanssi
 instantiation | instantiointi
 interface class | rajapintaluokka
 interpreter | tulkki
