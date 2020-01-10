@@ -50,6 +50,7 @@ Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilp
 Englanti | Suomi | Selitys
 ---------| ------| -------
 abstract base class | abstrakti kantaluokka | olio-ohjelmoinnissa luokka josta ei voi suoraan luoda ilmentymää. Vain luokasta peritystä aliluokasta voi luoda ilmentymän.
+access control | käyttöoikeuksien hallinta
 adaptive system | mukautuva järjestelmä | joukko todellisia tai teoreettisia elementtejä, jotka muodostavat sellaisen kokonaisuuden, joka yhdessä pystyy vastaamaan ympäristön muutoksiin reagoivilla osillaan. 
 addon | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 aggregate | kooste | erillisistä osista koostettu joukko
@@ -59,6 +60,7 @@ amortized constant complexity | amortisoidusti vakioaikainen tehokkuus
 ancestor | esi-isä
 argument | argumentti | muuttuja, jolla välitetään tietoa funktiolle
 array | taulukko | tietorakenne, jossa peräkkäisiä alkioita voidaan käsitellä indeksoimalla
+artificial intelligence | tekoäly | tietokoneen kyky sellaiseen joka ei perustu valmiiksi siihen ohjelmoituun mekanistiseen logiikkaan; joka havaitsee ympäristöään ja reagoi tai tekee toimia jotka parantavat sen menestystä jonkin tavoitteen saavuttamisessa; tietokoneen kyky sellaisiin kognitiivisiin tehtäviin kuin oppiminen ja ongelmanratkaisukyky
 assignment operator | sijoitusoperaattori | operaattori (esim '='), jonka avulla sijoitetaan arvo johonkin kohteeseen
 assembler | kokoaja | ohjelma matalan tason ohjelmointikielellä (assembly) kirjoitettujen ohjeiden muuttamiseksi konekoodiksi.
 attribute | attribuutti | määrite, ominaisuus
@@ -79,6 +81,7 @@ bind | :warning:
 bit | bitti
 bitmap | bittikartta
 bitset | bittivektori
+blockchain | lohkoketju
 boolean | totuusarvomuuttuja
 bottom-up | kokoava jaottelu
 bracket | sulku
@@ -103,6 +106,7 @@ class invariant | luokkainvariantti
 class object | luokkaolio
 class template | luokkamalli
 class template partial specialization | luokkamallin osittaiserikoistus
+click | klikata
 client | asiakasohjelma
 clipboard | leikepöytä
 clock rate | kellotaajuus
@@ -193,6 +197,7 @@ getter | anna-jäsenfunktio
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+hashtag | aihetunniste
 header | otsikko
 hide | peittää
 
@@ -227,7 +232,7 @@ iterator adaptor | iteraattorisovitin
 Englanti | Suomi | Selitys
 ---------| ------| -------
 key | avain
-
+keyword | avainsana
 
 ### L
 
@@ -242,6 +247,7 @@ logarithmic complexity | logaritminen kompleksisuus
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+machine learning | koneoppiminen
 map | assosiaatiotaulu
 member function | jäsenfunktio
 member function template | jäsenfunktiomalli
@@ -262,6 +268,7 @@ multiset | monijoukko
 Englanti | Suomi | Selitys
 ---------| ------| -------
 namespace | nimiavaruus
+neural network | neuroverkko
 
 
 ### O
@@ -354,12 +361,14 @@ superclass | kantaluokka
 Englanti | Suomi | Selitys
 ---------| ------| -------
 tab | välilehti
+tag | tunniste
 taskbar | tehtäväpalkki
 template | malli
 template metaprogramming | template-metaohjelmointi
 template specialization | mallin erikoistus
 temporary object | väliaikaisolio
 throw (exceptions) | heittää
+timestamp | aikaleima
 top-down | osittava jaottelu
 try-block | valvontalohko
 type cast | tyyppimuunnos
@@ -371,7 +380,9 @@ Englanti | Suomi | Selitys
 ---------| ------| -------
 unnamed namespace | nimeämätön nimiavaruus
 use case | käyttötapaus
-user interface | käyttöliittymä
+user account | käyttäjätili | tekniikka, jolla käyttäjä liitetään digitaaliseen palveluun tai tietojärjestelmään
+user interface | käyttöliittymä | liittymä, jonka avulla tietokonetta tai muuta tietoteknistä laitetta käytetään 
+user profile | käyttäjäprofiili | käyttäjään liitetty kokoelma asetuksia ja tietoa
 
 
 ### V
@@ -383,9 +394,17 @@ vector | vektori
 version control | versionhallinta
 virtual function | virtuaalifunktio
 virtual memory | näennäismuisti
+virtual reality (VR) | virtuaalitodellisuus
+vulnerability | haavoittuvuus
 
 
 ### W
+
+Englanti | Suomi | Selitys
+---------| ------| -------
+watermark | vesileima | esimerkiksi kuvaan tai muuhun digitaaliseen tiedostoon liitettävä merkintä, josta voi tunnistaa tiedoston alkuperäisen tekijän
+widget | pienoisohjelma |
+wireless local area network | langaton lähiverkko
 
 
 ### X
@@ -402,3 +421,6 @@ virtual memory | näennäismuisti
 - Olioiden ohjelmointi C++:lla - © 2012 Matti Rintala ja Jyke Jokinen ([Creative Commons Nimeä-Ei muutoksia-Epäkaupallinen 1.0 Suomi](http://creativecommons.org/licenses/by-nd-nc/1.0/fi/))
 - [Jyväskylän yliopisto Digipalvelut - Tietotekniikan sanasto](https://www.jyu.fi/digipalvelut/fi/ohjeet/sanasto)
 - [Krimaka.net - Tietotekniikan sanasto](http://www.krimaka.net/tietotekniikka/tietokone-ja-muut/tietotekniikan-sanasto.html)
+- [Wikisanakirja](https://fi.wiktionary.org/)
+- Sanastokeskus TSK ry - [Tietotekniikan termitalkoot](http://www.tsk.fi/tsk/termitalkoot/)
+- [Techopedia](https://www.techopedia.com)
