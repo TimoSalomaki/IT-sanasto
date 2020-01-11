@@ -76,12 +76,12 @@ backdoor | takaovi | ominaisuus tai puute tietojärjestelmässä, joka antaa ei-
 base class | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi aliluokka periytyy
 batch | :warning:
 bidirectional iterator | kaksisuuntainen iteraattori
-binary | binääri
+binary | binääri | binäärijärjestelmän mukainen luku
 bind | :warning:
-bit | bitti
+bit | bitti | datan pienin yksikkö; yksi binäärinen luku, jonka arvo on 1 tai 0
 bitmap | bittikartta
 bitset | bittivektori
-blockchain | lohkoketju
+blockchain | lohkoketju | hajautettu tietokanta, jossa transaktiot on tallennettu kryptografisesti allekirjoitettuina lohkoina ja jaettu verkkoon osallistujien kesken
 boolean | totuusarvomuuttuja
 bottom-up | kokoava jaottelu
 bracket | sulku
@@ -94,7 +94,7 @@ bug | ohjelmointivirhe
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-cache | välimuisti
+cache | välimuisti | pieni, nopea muisti, jonka tehtävä on nopeuttaa tietokoneen toimintaa
 call by value | arvonvälitys
 call-through function | läpikutsufunktio
 catch (exceptions) | siepata
@@ -109,26 +109,26 @@ class template partial specialization | luokkamallin osittaiserikoistus
 click | klikata
 client | asiakasohjelma
 clipboard | leikepöytä
-clock rate | kellotaajuus
+clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
 clone (version control) | kloonata
 closure | sulkeuma
-command interpreter | komentotulkki
+command interpreter | komentotulkki | tokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
 commonality and variability analysis | pysyvyys- ja vaihtelevuusanalyysi
 compile-time complexity | käännösaikainen tehokkuus
-component | komponentti
+component | komponentti | käsitteellinen osa suuremmasta kokonaisuudesta
 composite | kokoelma
 composite aggregate | muodostuminen
-computing | tietojenkäsittely
-const | vakio
+computing | tietojenkäsittely | tiedon keräämistä, muokkaamista, lajittelua, varastoimista ja jakamista
+const | vakio | arvoltaan muuttumaton suure/tietue
 constant complexity | vakioaikainen kompleksisuus
 constructor | rakentaja
 container | säiliö/kontti
 container adaptor | säiliösovitin
 continuous delivery | jatkuva toimitus
 conversion member function | muunnosjäsenfunktio
-cookie | eväste
+cookie | eväste | HTTP-protokollaan liittyvä tilatieto, jonka palvelin voi asettaa selaimelle
 copy constructor | kopiorakentaja
-cursor | kohdistin
+cursor | kohdistin | käyttöliittymän osa, joka osoittaa, mihin kohtaan syötettävä uusi teksti tai muu data asettuu
 
 
 ### D
@@ -143,12 +143,12 @@ derived class | aliluokka
 descendant | jälkeläinen
 Design By Contract | sopimussuunnittelu
 design pattern | suunnittelumalli
-desktop | työpöytä
-destructor | purkaja
-directory | hakemisto
+desktop | työpöytä | tietokoneen käyttöjärjestelmän graafisen käyttöliittymän perusnäkymä, jonka päälle ikkunat aukeavat
+destructor | purkaja | olio-ohjelmoinnissa luokan jäsenfunktio, joka suoritetaan olion varaamaa muistia vapautettaessa
+directory | hakemisto | tiedostojärjestelmään hierarkisesti varattu paikka tiedostoille
 double-ended queue | pakka
 drag and drop | raahaa ja pudota
-driver | ajuri
+driver | ajuri | ohjelma, joka ohjaa tietokoneeseen liitetyn oheislaitteen toimintaa
 dynamic binding | dynaaminen sitominen
 
 
@@ -157,9 +157,8 @@ dynamic binding | dynaaminen sitominen
 Englanti | Suomi | Selitys
 ---------| ------| -------
 encapsulation | kapselointi
-exception | poikkeus
-exception handler | poikkeuskäsittelijä
-exception neutrality | poikkeusneutraalius
+exception | poikkeus | ohjelmakoodin suorituksen aikana tapahtunut virhetilanne
+exception handler | poikkeuskäsittelijä | eräissä ohjelmointikielissä virhetilanteen hallintaan käytetty keino estää ohjelman pysähtyminen
 exception specification | poikkeusmääre
 extension (file name) | tarkennin
 extension (component) | lisäosa
@@ -169,12 +168,9 @@ extension (component) | lisäosa
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-feed | syöte
+feed | syöte | tietokoneohjelmalle annettava ulkopuolinen data; tarkoittaa paitsi tekstiä myös yksittäisiä näppäinpainalluksia, hiiren klikkauksia yms.
 forward declaration | ennakkoesittely
-forward iterator | eteenpäin-iteraattori
 framework | sovelluskehys
-function object | funktio-olio
-function object adaptor | funktio-oliosovitin
 function pointer | funktio-osoitin
 function template | funktiomalli
 function try block | funktion valvontalohko
@@ -197,7 +193,7 @@ getter | anna-jäsenfunktio
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-hashtag | aihetunniste
+hashtag | aihetunniste | sosiaalisessa mediassa käytettävä ristikkomerkin ja avainsanan yhdistelmä, hashtag
 header | otsikko
 hide | peittää
 
