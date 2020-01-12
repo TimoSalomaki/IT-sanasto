@@ -56,7 +56,6 @@ addon | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laaje
 aggregate | kooste | erillisistä osista koostettu joukko
 allocate | varata | osoittaa tai varata resurssi tiettyä käyttökohdetta varten. Esimerkiksi, keskusmuistia voidaan varata sovellusta varten
 allocator | varain | komponentti joka varaa jotain resurssia, esim. keskusmuistia jotain käyttökohdetta varten
-amortized constant complexity | amortisoidusti vakioaikainen tehokkuus
 ancestor | esi-isä
 argument | argumentti | muuttuja, jolla välitetään tietoa funktiolle
 array | taulukko | tietorakenne, jossa peräkkäisiä alkioita voidaan käsitellä indeksoimalla
@@ -113,7 +112,6 @@ clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
 clone (version control) | kloonata
 closure | sulkeuma
 command interpreter | komentotulkki | tokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
-commonality and variability analysis | pysyvyys- ja vaihtelevuusanalyysi
 compile-time complexity | käännösaikainen tehokkuus
 component | komponentti | käsitteellinen osa suuremmasta kokonaisuudesta
 composite | kokoelma
@@ -230,6 +228,7 @@ Englanti | Suomi | Selitys
 key | avain
 keyword | avainsana
 
+
 ### L
 
 Englanti | Suomi | Selitys
@@ -328,8 +327,9 @@ Englanti | Suomi | Selitys
 scope resolution operator | näkyvyystarkenninoperaattori
 screenshot | ruutukaappaus
 sequence diagram | tapahtumasekvenssi
-server | palvelin
-session | istunto
+server | palvelin | tietokone, joka ajaa yhtä tai useampaa palvelinohjelmaa
+server software | palvelinohjelma | tietokoneohjelma, joka palvelee muita ohjelmia suorittamalla pyydettäessä tietyn toiminnon
+session | istunto | jonkin palvelun yhteyden ottajalle luotu tilatieto
 set | joukko
 setter | aseta-jäsenfunktio
 shallow copy | matalakopiointi
@@ -340,14 +340,13 @@ slicing | viipaloituminen
 smart pointer | älykäs osoitin
 software | ohjelmisto
 source code | lähdekoodi
-spam | roskaposti
+spam | roskaposti | sähköpostitse tapahtuvaa, usein mainoksia sisältävää massapostitusta, johon ei ole etukäteen saatu vastaanottajan lupaa
 specialization | erikoistaminen
 state machine | tilakone
 static data member | luokkamuuttuja
 static member function | luokkafunktio
-static metaprogramming | käännösaikainen metaohjelmointi
 stream | virta
-streaming | suoratoisto
+streaming | suoratoisto | videokuvan ja/tai äänen välittäminen suorana lähetyksenä Internetissä
 stream iterator | virtaiteraattori
 subclass | aliluokka
 superclass | kantaluokka
@@ -357,15 +356,14 @@ superclass | kantaluokka
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-tab | välilehti
+tab | välilehti | graafisen käyttöliittymän elementti, joka mahdollistaa sisällön katselemisen ilman uusia ikkunoita
 tag | tunniste
 taskbar | tehtäväpalkki
 template | malli
-template metaprogramming | template-metaohjelmointi
 template specialization | mallin erikoistus
 temporary object | väliaikaisolio
 throw (exceptions) | heittää
-timestamp | aikaleima
+timestamp | aikaleima | tallennettu tieto jonkin tapahtuman ajankohdasta
 top-down | osittava jaottelu
 try-block | valvontalohko
 type cast | tyyppimuunnos
@@ -390,9 +388,9 @@ valid iterator | kelvollinen iteraattori
 vector | vektori
 version control | versionhallinta
 virtual function | virtuaalifunktio
-virtual memory | näennäismuisti
-virtual reality (VR) | virtuaalitodellisuus
-vulnerability | haavoittuvuus
+virtual memory | näennäismuisti | keskusmuistina ohjelmistolle näkyvä muisti, joka tallennetaan osittain kiintolevylle sivutukseksi kutsutun prosessin avulla
+virtual reality (VR) | virtuaalitodellisuus | tietokonesimulaation tuottamien aistimusten avulla luotu keinotekoinen ympäristö
+vulnerability | haavoittuvuus | tietoturva-aukko
 
 
 ### W
