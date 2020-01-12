@@ -74,7 +74,6 @@ backend | :uk: *ei käännöstä* | osa tietojärjestelmää tai -sovellusta joh
 backdoor | takaovi | ominaisuus tai puute tietojärjestelmässä, joka antaa ei-sallituille tahoille yhteyden järjestelmään tai sen sisältämään dataan.
 base class | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi aliluokka periytyy
 batch | :warning:
-bidirectional iterator | kaksisuuntainen iteraattori
 binary | binääri | binäärijärjestelmän mukainen luku
 bind | :warning:
 bit | bitti | datan pienin yksikkö; yksi binäärinen luku, jonka arvo on 1 tai 0
@@ -159,7 +158,7 @@ exception | poikkeus | ohjelmakoodin suorituksen aikana tapahtunut virhetilanne
 exception handler | poikkeuskäsittelijä | eräissä ohjelmointikielissä virhetilanteen hallintaan käytetty keino estää ohjelman pysähtyminen
 exception specification | poikkeusmääre
 extension (file name) | tarkennin
-extension (component) | lisäosa
+extension (component) | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 
 
 ### F
@@ -203,18 +202,13 @@ identity | identiteetti
 inheritance | periytyminen | olio-ohjelmoinnissa periytyminen mahdollistaa ominaisuuksien ottamisen olemassaolevista objekteista uusiin objekteihin
 inheritance hierarchy list | periytymishierarkia
 initialization list | alustuslista
-input iterator | syöttöiteraattori
-insert iterator | lisäys-iteraattori
-inserter | lisäys-iteraattori
 instance | ilmentymä/instanssi
 instantiation | instantiointi
 interface class | rajapintaluokka
 interpreter | tulkki, ohjelmatulkki | tietokoneohjelma, joka suorittaa suoraan ohjelmointi- tai skriptikielellä kirjoitetut ohjeet edellyttämättä, että ne olisi aikaisemmin koottu konekieliohjelmaksi
-invalid iterator | kelvoton iteraattori
 invalidate | mitätöidä
 invariant | invariantti
 iterator | iteraattori | objekti, joka mahdollistaa peräkkäisiä alkioita indeksoimalla käsiteltävän tietorakenteen läpikulun
-iterator adaptor | iteraattorisovitin
 
 
 ### J
@@ -225,7 +219,7 @@ iterator adaptor | iteraattorisovitin
 Englanti | Suomi | Selitys
 ---------| ------| -------
 key | avain
-keyword | avainsana
+keyword | avainsana | tiedonhaussa ja indeksoinnissa käytetty viittaus tai merkintä, jonka on tarkoitus kuvata tiettyä sisältöä
 
 
 ### L
@@ -233,7 +227,8 @@ keyword | avainsana
 Englanti | Suomi | Selitys
 ---------| ------| -------
 linear complexity | lineaarinen kompleksisuus
-list | lista
+list | lista | lista on tietovarasto, johon voidaan tallentaa useampi tietoalkio kerrallaan
+local area network | tietokoneverkko, joka yhdistää kaksi tai useampaa laitetta langattoman viestinnän avulla paikallisverkon muodostamiseksi rajoitetulla alueella
 logarithmic complexity | logaritminen kompleksisuus
 
 
@@ -242,15 +237,12 @@ logarithmic complexity | logaritminen kompleksisuus
 Englanti | Suomi | Selitys
 ---------| ------| -------
 machine learning | koneoppiminen
-map | assosiaatiotaulu
+map | assosiaatiotaulu, hakurakenne | abstrakti tietotyyppi, joka kuvaa avaimia arvoiksi
 member function | jäsenfunktio
 member function template | jäsenfunktiomalli
-metaclass | metaluokka
-metafunction | metafunktio
-metaprogram | metaohjelma
-metaprogramming | metaohjelmointi
-method | metodi
-microservice | mikropalvelu
+metaprogramming | metaohjelmointi | ohjelmointitekniikka, jossa tietokoneohjelmat kykenevät käsittelemään muita ohjelmia datanaan
+method | metodi | eräiden ohjelmointikielten termi jäsenfunktiolle
+microservice | mikropalvelu | lähestymistapa sovelluskehitykseen, jossa suuri sovellus rakennetaan modulaaristen komponenttien tai palveluiden sarjaksi
 module | moduuli
 multimap | assosiaatiomonitaulu
 multiple inheritance | moniperiytyminen
@@ -261,19 +253,18 @@ multiset | monijoukko
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-namespace | nimiavaruus
-neural network | neuroverkko
+namespace | nimiavaruus | ryhmä toisiinsa liittyviä elementtejä, joilla kullakin on yksilöivä nimi tai tunniste
+neural network | neuroverkko | ihmisen aivojen ja hermoston pohjalta mallinnettu tietokonejärjestelmä
 
 
 ### O
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-order of growth | kertaluokka
-output iterator | tulostus-iteraattori
-open source | avoin lähdekoodi
-operating system | käyttöjärjestelmä
-overloading | kuormittaminen
+order of growth | kertaluokka | kuvaa algoritmissa sitä, kuinka laskennan aika kasvaa, kun tulojoukko kasvaa
+open source | avoin lähdekoodi | avoimen lähdekoodin ohjelmistot ovat tietyn tyyppisiä tietokoneohjelmistoja, joissa lähdekoodit julkaistaan lisenssillä, jolla tekijänoikeuksien haltija antaa käyttäjille oikeuden tutkia, muuttaa ja levittää ohjelmistoa kenelle tahansa ja mihin tahansa tarkoitukseen
+operating system | käyttöjärjestelmä | tietokoneen keskeinen matalan tason tietokoneohjelmisto, joka tarjoaa perustoiminnot tietokoneen käyttämiseen ja toimii rajapintana fyysisen laitteiston ja tietokoneessa toimivien ohjelmistojen välillä
+overloading | kuormittaminen | joillakin ohjelmointikielillä funktion ylikuormitus tai menetelmän ylikuormitus on kyky luoda useita samannimisiä toimintoja eri toteutuksilla
 
 
 ### P
@@ -281,31 +272,30 @@ overloading | kuormittaminen
 Englanti | Suomi | Selitys
 ---------| ------| -------
 parent class | kantaluokka
-pattern language | mallikieli
-plugin | lisäosa
-pointer | osoitin
-postcondition | jälkiehto
-precondition | esiehto
-prompt | kehote
-proxy | välityspalvelin
-pull (version control) | vetää
-pure virtual function | puhdas virtuaalifunktio
-push (version control) | työntää
+pattern language | mallikieli | kokoelma suunnittelumalleja, jotka muodostavat suunnittelumetodologian
+plugin | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
+pointer | osoitin | ohjelmoinnissa muuttuja, joka osoittaa toiseen muuttujaan
+postcondition | jälkiehto | ehto tai predikaatti, jonka on oltava aina totta heti koodiosan tai operaation suorittamisen jälkeen
+precondition | esiehto | ehto tai predikaatti, jonka on oltava aina totta juuri ennen koodiosan tai operaation suorittamista
+prompt | kehote | teksti, jota käytetään kuvaamaan järjestelmän valmiutta suorittaa seuraava komento
+proxy | välityspalvelin | palvelin, johon opetaan yhteys varsinaisen resurssin lisältävän palvelimen sijaan, ja joka välittää liikenteen oikealle palvelimelle
+pull (version control) | komento, jota käytetään paikallisen version päivittämiseen ulkoisesta lähteestä
+pure virtual function | puhdas virtuaalifunktio | virtuaalifunktio, joka aliluokan on toteutettava, jos aliluokka ei ole abstrakti
+push (version control) | työntää | komento, jota käytetään paikallisen version muutoksien työntämiseen ulkoiseen lähteeseen
 
 
 ### Q
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-quadratic complexity | neliöllinen kompleksisuus
+quadratic complexity | neliöllinen kompleksisuus | suorituskyky, joka on suoraan verrannollinen syöttötietojoukon koon neliöön
 
 
 ### R
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-random access iterator | hajasaanti-iteraattori
-random access memory (RAM) | työmuisti/keskusmuisti
+random access memory (RAM) | työmuisti/keskusmuisti | tietokonemuistin muoto, jota voidaan lukea ja muuttaa missä tahansa järjestyksessä ja jota käytetään yleensä työdatan ja konekoodin tallentamiseen
 range | väli | lukuavaruuden osa, jonka määrittelemiseen tarvitaan vähintään kaksi ääripistettä
 re-usability | uudelleenkäytettävyys | olemassa olevan omaisuuden käyttöä jossain muodossa ohjelmistotuotteen kehitysprosessissa
 regular expression | säännöllinen lauseke | lauseke, jolla poimitaan merkkiyhdistelmiä merkkijonoista
@@ -314,9 +304,7 @@ reference copy | viitekopiointi
 reflection | reflektio | tietokoneohjelman kyky tutkia, tarkastella itseään ja muokata omaa rakennettaan sekä käyttäytymistään suorituksen aikana
 repeated multiple inheritance | toistuva moniperiytyminen
 replicated multiple inheritance | erotteleva moniperiytyminen
-responsibility | vastuualue
-reverse iterator | käänteis-iteraattori
-root certificate | juurivarmenne
+root certificate | juurivarmenne | julkisen avaimen varmenne, joka tunnistaa päävarmenteen myöntäjän
 
 
 ### S
@@ -336,18 +324,17 @@ shared aggregate | jaettu kooste
 shared multiple inheritance | yhdistävä moniperiytyminen
 shell | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
 smart pointer | älykäs osoitin | abstrakti tietotyyppi, joka simuloi osoitinta tarjoamalla lisäominaisuuksia, kuten automaattinen muistin hallinta tai rajojen tarkistaminen
-software | ohjelmisto
-source code | lähdekoodi
+software | ohjelmisto | ohjelmat ja muut tietokoneen käyttämät toiminnot
+source code | lähdekoodi | tekstimuotoinen lista komennoista, jotka kootaan suoritettavaksi tietokoneohjelmaksi
 spam | roskaposti | sähköpostitse tapahtuvaa, usein mainoksia sisältävää massapostitusta, johon ei ole etukäteen saatu vastaanottajan lupaa
-specialization | erikoistaminen
-state machine | tilakone
+specialization | erikoistaminen | olio-ohjelmoinnissa erikoistuminen tarkoittaa uusien aliluokkien luomista olemassa olevasta luokasta
+state machine | tilakone | konsepti, jota käytetään tietokoneohjelmien tai digitaalisen logiikan suunnittelussa
 static data member | luokkamuuttuja
-static member function | luokkafunktio
-stream | virta
+stream | virta | lähettää tai vastaanottaa tietoja, erityisesti video- ja äänimateriaalia Internetin välityksellä jatkuvana virtauksena
 streaming | suoratoisto | videokuvan ja/tai äänen välittäminen suorana lähetyksenä Internetissä
 stream iterator | virtaiteraattori
-subclass | aliluokka
-superclass | kantaluokka
+subclass | aliluokka | olio-ohjelmoinnissa luokka, joka periytyy toisesta luokasta
+superclass | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi luokka periytyy
 
 
 ### T
@@ -355,24 +342,21 @@ superclass | kantaluokka
 Englanti | Suomi | Selitys
 ---------| ------| -------
 tab | välilehti | graafisen käyttöliittymän elementti, joka mahdollistaa sisällön katselemisen ilman uusia ikkunoita
-tag | tunniste
-taskbar | tehtäväpalkki
-template | malli
+tag | tunniste | jollekin tai johonkin liitetty etiketti tunnistamista tai muiden tietojen antamista varten
+taskbar | tehtäväpalkki | palkki graafisen käyttöliittymän näytön reunalla, joka mahdollistaa nopean pääsyn nykyisiin- tai suosikkisovelluksiin
+template | malli | monimutkaisen järjestelmän rakenne ja toimintatapa
 template specialization | mallin erikoistus
 temporary object | väliaikaisolio
-throw (exceptions) | heittää
 timestamp | aikaleima | tallennettu tieto jonkin tapahtuman ajankohdasta
-top-down | osittava jaottelu
-try-block | valvontalohko
-type cast | tyyppimuunnos
+try-block | valvontalohko | koodilohko, jossa odotetaan tapahtuvan poikkeuksia
+type cast | tyyppimuunnos | menetelmä entiteetin muuttamiseksi tietotyypistä toiseen
 
 
 ### U
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-unnamed namespace | nimeämätön nimiavaruus
-use case | käyttötapaus
+use case | käyttötapaus | erityistilanne, jossa tuotetta tai palvelua voidaan mahdollisesti käyttää
 user account | käyttäjätili | tekniikka, jolla käyttäjä liitetään digitaaliseen palveluun tai tietojärjestelmään
 user interface | käyttöliittymä | liittymä, jonka avulla tietokonetta tai muuta tietoteknistä laitetta käytetään 
 user profile | käyttäjäprofiili | käyttäjään liitetty kokoelma asetuksia ja tietoa
@@ -383,7 +367,7 @@ user profile | käyttäjäprofiili | käyttäjään liitetty kokoelma asetuksia 
 Englanti | Suomi | Selitys
 ---------| ------| -------
 valid iterator | kelvollinen iteraattori
-vector | vektori
+vector | vektori | ohjelmoinnissa taulukko, joka on yksiulotteinen
 version control | versionhallinta
 virtual function | virtuaalifunktio
 virtual memory | näennäismuisti | keskusmuistina ohjelmistolle näkyvä muisti, joka tallennetaan osittain kiintolevylle sivutukseksi kutsutun prosessin avulla
@@ -396,8 +380,8 @@ vulnerability | haavoittuvuus | tietoturva-aukko
 Englanti | Suomi | Selitys
 ---------| ------| -------
 watermark | vesileima | esimerkiksi kuvaan tai muuhun digitaaliseen tiedostoon liitettävä merkintä, josta voi tunnistaa tiedoston alkuperäisen tekijän
-widget | pienoisohjelma |
-wireless local area network | langaton lähiverkko
+widget | pienoisohjelma | sovellus tai rajapinnan komponentti, jonka avulla käyttäjä voi suorittaa toiminnon tai käyttää palvelua
+wireless local area network | langaton lähiverkko | langaton tietokoneverkko, joka yhdistää kaksi tai useampaa laitetta langattoman viestinnän avulla paikallisverkon muodostamiseksi rajoitetulla alueella
 
 
 ### X
@@ -414,6 +398,7 @@ wireless local area network | langaton lähiverkko
 - Olioiden ohjelmointi C++:lla - © 2012 Matti Rintala ja Jyke Jokinen ([Creative Commons Nimeä-Ei muutoksia-Epäkaupallinen 1.0 Suomi](http://creativecommons.org/licenses/by-nd-nc/1.0/fi/))
 - [Jyväskylän yliopisto Digipalvelut - Tietotekniikan sanasto](https://www.jyu.fi/digipalvelut/fi/ohjeet/sanasto)
 - [Krimaka.net - Tietotekniikan sanasto](http://www.krimaka.net/tietotekniikka/tietokone-ja-muut/tietotekniikan-sanasto.html)
-- [Wikisanakirja](https://fi.wiktionary.org/)
+- [Wikisanakirja](https://fi.wiktionary.org)
+- [Wikipedia](https://fi.wikipedia.org)
 - Sanastokeskus TSK ry - [Tietotekniikan termitalkoot](http://www.tsk.fi/tsk/termitalkoot/)
 - [Techopedia](https://www.techopedia.com)
