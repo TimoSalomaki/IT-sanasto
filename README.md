@@ -86,7 +86,7 @@ bottom-up | kokoava jaottelu
 bracket | sulku
 breakpoint | keskeytyskohta
 bridge | silta
-bug | ohjelmointivirhe
+bug | ohjelmointivirhe | tietokoneohjelman lähdekoodissa oleva virhe. Virheet jaetaan kahteen pääluokkaan: syntaksivirheet ja semanttiset virheet
 
 
 ### C
@@ -105,13 +105,13 @@ class invariant | luokkainvariantti
 class object | luokkaolio
 class template | luokkamalli
 class template partial specialization | luokkamallin osittaiserikoistus
-click | klikata
+click | klikata | napsauttaa tietokoneen hiiren (tai muun kursoria ohjaavan laitteen) painiketta
 client | asiakasohjelma
 clipboard | leikepöytä
 clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
 clone (version control) | kloonata
 closure | sulkeuma
-command interpreter | komentotulkki | tokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
+command interpreter | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
 compile-time complexity | käännösaikainen tehokkuus
 component | komponentti | käsitteellinen osa suuremmasta kokonaisuudesta
 composite | kokoelma
@@ -140,7 +140,7 @@ default constructor | oletusrakentaja
 derived class | aliluokka
 descendant | jälkeläinen
 Design By Contract | sopimussuunnittelu
-design pattern | suunnittelumalli
+design pattern | suunnittelumalli | geneerinen, uudelleenkäytettävä ratkaisu yleisesti esiintyvään ongelmaan ohjelmistokehityksessä
 desktop | työpöytä | tietokoneen käyttöjärjestelmän graafisen käyttöliittymän perusnäkymä, jonka päälle ikkunat aukeavat
 destructor | purkaja | olio-ohjelmoinnissa luokan jäsenfunktio, joka suoritetaan olion varaamaa muistia vapautettaessa
 directory | hakemisto | tiedostojärjestelmään hierarkisesti varattu paikka tiedostoille
@@ -154,7 +154,7 @@ dynamic binding | dynaaminen sitominen
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-encapsulation | kapselointi
+encapsulation | kapselointi | yhteen kuuluvien tietojen ja toimintojen kokoaminen yhdeksi kokonaisuudeksi
 exception | poikkeus | ohjelmakoodin suorituksen aikana tapahtunut virhetilanne
 exception handler | poikkeuskäsittelijä | eräissä ohjelmointikielissä virhetilanteen hallintaan käytetty keino estää ohjelman pysähtyminen
 exception specification | poikkeusmääre
@@ -168,7 +168,7 @@ Englanti | Suomi | Selitys
 ---------| ------| -------
 feed | syöte | tietokoneohjelmalle annettava ulkopuolinen data; tarkoittaa paitsi tekstiä myös yksittäisiä näppäinpainalluksia, hiiren klikkauksia yms.
 forward declaration | ennakkoesittely
-framework | sovelluskehys
+framework | Ohjelmistokehys | konkreettinen tai käsitteellinen alusta, jonka koodin ja geneerisen toiminnallisuuden kehittäjät tai käyttäjät voivat valikoivasti erikoistaa, tai ohittaa. Kehykset ovat kirjastojen muodossa, joissa tarkkaan määritelty sovellusohjelmarajapinta (API) on käytettävissä uudelleen missä tahansa kehitteillä olevan ohjelmiston alueella.
 function pointer | funktio-osoitin
 function template | funktiomalli
 function try block | funktion valvontalohko
@@ -179,8 +179,8 @@ functor | funktio-olio
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-garbage collection | roskienkeruu
-generalization | yleistäminen
+garbage collection | roskienkeruu | automaattinen toiminto, joka vapauttaa tilaa tietokoneen muistissa poistamalla tietoja, joita ei enää tarvita tai käytetä.
+generalization | yleistäminen | abstraktion muoto, jossa tiettyjen tapausten yhteiset ominaisuudet muotoillaan yleisiksi käsitteiksi tai vaatimuksiksi
 generic algorithm | geneerinen algoritmi
 generic programming | geneerinen ohjelmointi
 genericity | yleiskäyttöisyys
@@ -192,8 +192,7 @@ getter | anna-jäsenfunktio
 Englanti | Suomi | Selitys
 ---------| ------| -------
 hashtag | aihetunniste | sosiaalisessa mediassa käytettävä ristikkomerkin ja avainsanan yhdistelmä, hashtag
-header | otsikko
-hide | peittää
+header file | otsikkotiedosto | tiedosto, joka sisältää ohjelmointikielestä riippuen esim. funktioiden määrittelyn sekä makroja.
 
 
 ### I
@@ -201,7 +200,7 @@ hide | peittää
 Englanti | Suomi | Selite
 ---------| ------| -------
 identity | identiteetti
-inheritance | periytyminen
+inheritance | periytyminen | olio-ohjelmoinnissa periytyminen mahdollistaa ominaisuuksien ottamisen olemassaolevista objekteista uusiin objekteihin
 inheritance hierarchy list | periytymishierarkia
 initialization list | alustuslista
 input iterator | syöttöiteraattori
@@ -210,11 +209,11 @@ inserter | lisäys-iteraattori
 instance | ilmentymä/instanssi
 instantiation | instantiointi
 interface class | rajapintaluokka
-interpreter | tulkki
+interpreter | tulkki, ohjelmatulkki | tietokoneohjelma, joka suorittaa suoraan ohjelmointi- tai skriptikielellä kirjoitetut ohjeet edellyttämättä, että ne olisi aikaisemmin koottu konekieliohjelmaksi
 invalid iterator | kelvoton iteraattori
 invalidate | mitätöidä
 invariant | invariantti
-iterator | iteraattori
+iterator | iteraattori | objekti, joka mahdollistaa peräkkäisiä alkioita indeksoimalla käsiteltävän tietorakenteen läpikulun
 iterator adaptor | iteraattorisovitin
 
 
@@ -307,12 +306,12 @@ Englanti | Suomi | Selitys
 ---------| ------| -------
 random access iterator | hajasaanti-iteraattori
 random access memory (RAM) | työmuisti/keskusmuisti
-range | väli
-re-usability | uudelleenkäytettävyys
-regular expression | säännöllinen lauseke
-reference | viite
-reference copy | viitekopiointi
-reflection | reflektio
+range | väli | lukuavaruuden osa, jonka määrittelemiseen tarvitaan vähintään kaksi ääripistettä
+re-usability | uudelleenkäytettävyys | olemassa olevan omaisuuden käyttöä jossain muodossa ohjelmistotuotteen kehitysprosessissa
+regular expression | säännöllinen lauseke | lauseke, jolla poimitaan merkkiyhdistelmiä merkkijonoista
+reference | viite | osoite, joka sallii jonkin tiedon käytön, osoitin
+reference copy | viitekopiointi 
+reflection | reflektio | tietokoneohjelman kyky tutkia, tarkastella itseään ja muokata omaa rakennettaan sekä käyttäytymistään suorituksen aikana
 repeated multiple inheritance | toistuva moniperiytyminen
 replicated multiple inheritance | erotteleva moniperiytyminen
 responsibility | vastuualue
@@ -325,8 +324,8 @@ root certificate | juurivarmenne
 Englanti | Suomi | Selitys
 ---------| ------| -------
 scope resolution operator | näkyvyystarkenninoperaattori
-screenshot | ruutukaappaus
-sequence diagram | tapahtumasekvenssi
+screenshot | ruutukaappaus | kuva, joka on otettu siitä mitä tietokoneen ruudulla tapahtuu juuri sillä hetkellä
+sequence diagram (UML) | sekvenssikaavio | kaavio, joka osoittaa objektien vuorovaikutukset aikajärjestyksessä
 server | palvelin | tietokone, joka ajaa yhtä tai useampaa palvelinohjelmaa
 server software | palvelinohjelma | tietokoneohjelma, joka palvelee muita ohjelmia suorittamalla pyydettäessä tietyn toiminnon
 session | istunto | jonkin palvelun yhteyden ottajalle luotu tilatieto
@@ -335,9 +334,8 @@ setter | aseta-jäsenfunktio
 shallow copy | matalakopiointi
 shared aggregate | jaettu kooste
 shared multiple inheritance | yhdistävä moniperiytyminen
-shell | komentotulkki
-slicing | viipaloituminen
-smart pointer | älykäs osoitin
+shell | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
+smart pointer | älykäs osoitin | abstrakti tietotyyppi, joka simuloi osoitinta tarjoamalla lisäominaisuuksia, kuten automaattinen muistin hallinta tai rajojen tarkistaminen
 software | ohjelmisto
 source code | lähdekoodi
 spam | roskaposti | sähköpostitse tapahtuvaa, usein mainoksia sisältävää massapostitusta, johon ei ole etukäteen saatu vastaanottajan lupaa
