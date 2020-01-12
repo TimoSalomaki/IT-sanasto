@@ -228,7 +228,7 @@ Englanti | Suomi | Selitys
 ---------| ------| -------
 linear complexity | lineaarinen kompleksisuus
 list | lista | lista on tietovarasto, johon voidaan tallentaa useampi tietoalkio kerrallaan
-local area network | tietokoneverkko, joka yhdistää kaksi tai useampaa laitetta langattoman viestinnän avulla paikallisverkon muodostamiseksi rajoitetulla alueella
+local area network | lähiverkko | tietokoneverkko, joka yhdistää kaksi tai useampaa laitetta langattoman viestinnän avulla paikallisverkon muodostamiseksi rajoitetulla alueella
 logarithmic complexity | logaritminen kompleksisuus
 
 
