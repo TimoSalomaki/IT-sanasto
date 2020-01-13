@@ -50,13 +50,12 @@ Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilp
 Englanti | Suomi | Selitys
 ---------| ------| -------
 abstract base class | abstrakti kantaluokka | olio-ohjelmoinnissa luokka josta ei voi suoraan luoda ilmentymää. Vain luokasta peritystä aliluokasta voi luoda ilmentymän.
-access control | käyttöoikeuksien hallinta
+access control | käyttöoikeuksien hallinta | tietoturvatekniikka, joka säätelee sitä, kuka tai mikä voi tarkastella tai käyttää resursseja tietojärjestelmässä
 adaptive system | mukautuva järjestelmä | joukko todellisia tai teoreettisia elementtejä, jotka muodostavat sellaisen kokonaisuuden, joka yhdessä pystyy vastaamaan ympäristön muutoksiin reagoivilla osillaan. 
 addon | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 aggregate | kooste | erillisistä osista koostettu joukko
 allocate | varata | osoittaa tai varata resurssi tiettyä käyttökohdetta varten. Esimerkiksi, keskusmuistia voidaan varata sovellusta varten
 allocator | varain | komponentti joka varaa jotain resurssia, esim. keskusmuistia jotain käyttökohdetta varten
-ancestor | esi-isä
 argument | argumentti | muuttuja, jolla välitetään tietoa funktiolle
 array | taulukko | tietorakenne, jossa peräkkäisiä alkioita voidaan käsitellä indeksoimalla
 artificial intelligence | tekoäly | tietokoneen kyky sellaiseen joka ei perustu valmiiksi siihen ohjelmoituun mekanistiseen logiikkaan; joka havaitsee ympäristöään ja reagoi tai tekee toimia jotka parantavat sen menestystä jonkin tavoitteen saavuttamisessa; tietokoneen kyky sellaisiin kognitiivisiin tehtäviin kuin oppiminen ja ongelmanratkaisukyky
@@ -73,18 +72,17 @@ Englanti | Suomi | Selitys
 backend | :uk: *ei käännöstä* | osa tietojärjestelmää tai -sovellusta johon käyttäjällä ei ole suoraa yhteyttä, käytetään yleensä datan tallennukseen ja manipulointiin
 backdoor | takaovi | ominaisuus tai puute tietojärjestelmässä, joka antaa ei-sallituille tahoille yhteyden järjestelmään tai sen sisältämään dataan.
 base class | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi aliluokka periytyy
-batch | :warning:
+batch | joukko | ryhmä tietueita, jotka käsitellään yhtenä yksikkönä
 binary | binääri | binäärijärjestelmän mukainen luku
-bind | :warning:
 bit | bitti | datan pienin yksikkö; yksi binäärinen luku, jonka arvo on 1 tai 0
-bitmap | bittikartta
-bitset | bittivektori
+bitmap | bittikartta | digitaalinen kuva, joka koostuu pistematriisista
+bitset | bittivektori | taulukkomuotoinen tietorakenne, joka tallentaa bitit kompaktisti
+bitwise | biteittäinen
 blockchain | lohkoketju | hajautettu tietokanta, jossa transaktiot on tallennettu kryptografisesti allekirjoitettuina lohkoina ja jaettu verkkoon osallistujien kesken
-boolean | totuusarvomuuttuja
-bottom-up | kokoava jaottelu
-bracket | sulku
-breakpoint | keskeytyskohta
-bridge | silta
+boolean | totuusarvomuuttuja | muuttuja, jolla voi olla yksi kahdesta mahdollisesta arvosta, 0 (väärä) tai 1 (tosi)
+bracket | sulku | käytetään sulkemaan sanoja tai numeroita niiden erottamiseksi asiayhteydestä, () [] {}〈〉
+breakpoint | keskeytyskohta | paikka tietokoneohjelmassa, jossa komentojen sekvenssi keskeytyy, etenkin toisen ohjelman tai operaattorin toimesta
+bridge | silta | tietoverkkolaite, joka tarjoaa yhteyden muihin siltaverkkoihin, jotka käyttävät samaa protokollaa
 bug | ohjelmointivirhe | tietokoneohjelman lähdekoodissa oleva virhe. Virheet jaetaan kahteen pääluokkaan: syntaksivirheet ja semanttiset virheet
 
 
@@ -93,7 +91,7 @@ bug | ohjelmointivirhe | tietokoneohjelman lähdekoodissa oleva virhe. Virheet j
 Englanti | Suomi | Selitys
 ---------| ------| -------
 cache | välimuisti | pieni, nopea muisti, jonka tehtävä on nopeuttaa tietokoneen toimintaa
-call by value | arvonvälitys
+call by value | arvonvälitys | menetelmä argumenttien siirtämiseksi funktiolle, kopioi argumentin todellisen arvon funktion muodolliseen parametriin
 call-through function | läpikutsufunktio
 catch (exceptions) | siepata
 certificate | varmenne
@@ -109,22 +107,20 @@ client | asiakasohjelma
 clipboard | leikepöytä
 clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
 clone (version control) | kloonata
-closure | sulkeuma
+closure | sulkeuma |toiminto, jolla on oma ympäristö. Tässä ympäristössä on ainakin yksi sidottu muuttuja (nimi, jolla on arvo, kuten numero)
 command interpreter | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
 compile-time complexity | käännösaikainen tehokkuus
 component | komponentti | käsitteellinen osa suuremmasta kokonaisuudesta
-composite | kokoelma
-composite aggregate | muodostuminen
+composite | kokoelma | asia, joka koostuu useista osista tai elementeistä 
 computing | tietojenkäsittely | tiedon keräämistä, muokkaamista, lajittelua, varastoimista ja jakamista
 const | vakio | arvoltaan muuttumaton suure/tietue
 constant complexity | vakioaikainen kompleksisuus
-constructor | rakentaja
-container | säiliö/kontti
-container adaptor | säiliösovitin
-continuous delivery | jatkuva toimitus
-conversion member function | muunnosjäsenfunktio
+constructor | rakentaja | luokan tai rakenteen erityinen menetelmä olio-ohjelmoinnissa, joka alustaa kyseisen tyyppisen objektin
+container | säiliö/kontti | sovelluspaketti, joka sisältää kaiken, mitä sen ajamiseen tarvitaan
+continuous delivery | jatkuva toimitus | ohjelmistosuunnittelumenetelmä, jossa tiimit tuottavat ohjelmistoja lyhyinä jaksoina varmistaen, että ohjelmistot voidaan luotettavasti julkaista milloin tahansa
+conversion member function | muunnosjäsenfunktio |funktio, joka muuntaa luokan tyypistä toiseen määriteltyyn tyyppiin
 cookie | eväste | HTTP-protokollaan liittyvä tilatieto, jonka palvelin voi asettaa selaimelle
-copy constructor | kopiorakentaja
+copy constructor | kopiorakentaja | erityinen rakentaja uuden objektin luomiseksi kopiona olemassa olevasta objektista
 cursor | kohdistin | käyttöliittymän osa, joka osoittaa, mihin kohtaan syötettävä uusi teksti tai muu data asettuu
 
 
@@ -198,16 +194,16 @@ header file | otsikkotiedosto | tiedosto, joka sisältää ohjelmointikielestä 
 
 Englanti | Suomi | Selite
 ---------| ------| -------
-identity | identiteetti
+identity | identiteetti | järjestelmän tunnistama henkilön, laitteen tai näiden kahden yhdistelmän yksilöivä nimi
 inheritance | periytyminen | olio-ohjelmoinnissa periytyminen mahdollistaa ominaisuuksien ottamisen olemassaolevista objekteista uusiin objekteihin
-inheritance hierarchy list | periytymishierarkia
-initialization list | alustuslista
-instance | ilmentymä/instanssi
-instantiation | instantiointi
-interface class | rajapintaluokka
+inheritance hierarchy list | periytymishierarkia | esitys, joka kuvaa luokkien periytymissuhteita toisiinsa nähden
+initialization list | alustuslista | rakentajassa välitetty lista, jota käytetään luokan jäsenmuuttjien arvojen alustamiseen
+instance | ilmentymä/instanssi | olio-ohjelmoinnissa yksi objektin ilmentymä
+instantiation | instantiointi | todellisen esiintymän luominen esim. objektista tai prosessista
+interface class | rajapintaluokka | olio-ohjelmoinnissa kokoelma funtioiden esittelyjä
 interpreter | tulkki, ohjelmatulkki | tietokoneohjelma, joka suorittaa suoraan ohjelmointi- tai skriptikielellä kirjoitetut ohjeet edellyttämättä, että ne olisi aikaisemmin koottu konekieliohjelmaksi
-invalidate | mitätöidä
-invariant | invariantti
+invalidate | mitätöidä | jonkin tallenteen tai tuloksen mitätöinti, joka yleensä johtaa uuden tallenteen tai tuloksen luomiseen
+invariant | invariantti | toiminto, määrä tai ominaisuus, joka pysyy muuttumattomana määritettyä muunnosta sovellettaessa
 iterator | iteraattori | objekti, joka mahdollistaa peräkkäisiä alkioita indeksoimalla käsiteltävän tietorakenteen läpikulun
 
 
@@ -218,7 +214,7 @@ iterator | iteraattori | objekti, joka mahdollistaa peräkkäisiä alkioita inde
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-key | avain
+key | avain | tietueen kenttä, jota käytetään tietueen yksilöimiseen
 keyword | avainsana | tiedonhaussa ja indeksoinnissa käytetty viittaus tai merkintä, jonka on tarkoitus kuvata tiettyä sisältöä
 
 
@@ -226,27 +222,27 @@ keyword | avainsana | tiedonhaussa ja indeksoinnissa käytetty viittaus tai merk
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-linear complexity | lineaarinen kompleksisuus
+linear complexity | lineaarinen kompleksisuus | mitta, joka arvioi tietyn algoritmin suorittamien operaatioiden lukumäärän tai keston suuruusluokan kasvavan lineaarisesti syötteen koon funktiona
 list | lista | lista on tietovarasto, johon voidaan tallentaa useampi tietoalkio kerrallaan
 local area network | lähiverkko | tietokoneverkko, joka yhdistää kaksi tai useampaa laitetta langattoman viestinnän avulla paikallisverkon muodostamiseksi rajoitetulla alueella
-logarithmic complexity | logaritminen kompleksisuus
+logarithmic complexity | logaritminen kompleksisuus | mitta, joka arvioi tietyn algoritmin suorittamien operaatioiden lukumäärän tai keston suuruusluokan kasvavan logaritmisesti syötteen koon funktiona
 
 
 ### M
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-machine learning | koneoppiminen
+machine learning | koneoppiminen | tieteellistä tutkimusta algoritmeista ja tilastollisista malleista, joita tietokonejärjestelmät käyttävät tietyn tehtävän suorittamiseen ilman nimenomaisia ohjeita, luottaen sen sijaan malleihin ja päätelmiin
 map | assosiaatiotaulu, hakurakenne | abstrakti tietotyyppi, joka kuvaa avaimia arvoiksi
-member function | jäsenfunktio
-member function template | jäsenfunktiomalli
+member function | jäsenfunktio | operaattoreita ja toimintoja, jotka ovat luokan jäseniä
+member function template | jäsenfunktiomalli | mallifunktiot, jotka ovat luokan tai luokamallin jäseniä
 metaprogramming | metaohjelmointi | ohjelmointitekniikka, jossa tietokoneohjelmat kykenevät käsittelemään muita ohjelmia datanaan
 method | metodi | eräiden ohjelmointikielten termi jäsenfunktiolle
 microservice | mikropalvelu | lähestymistapa sovelluskehitykseen, jossa suuri sovellus rakennetaan modulaaristen komponenttien tai palveluiden sarjaksi
-module | moduuli
-multimap | assosiaatiomonitaulu
-multiple inheritance | moniperiytyminen
-multiset | monijoukko
+module | moduuli | mikä tahansa useista erillisistä, mutta toisiinsa liittyvistä yksiköistä rakentuva asia, jonka avulla ohjelma voidaan rakentaa
+multimap | assosiaatiomonitaulu | yleistys kartasta tai assosiatiivisesta taulukon abstraktista tietotyypistä, jossa tiettyyn avaimeen voidaan liittää ja siitä palauttaa useampi kuin yksi arvo
+multiple inheritance | moniperiytyminen | olio-ohjelmoinnissa ominaisuus, jossa objekti tai luokka voi periä ominaisuuksia ja toiminnallisuutta useammalta kuin yhdeltä pääluokalta
+multiset | monijoukko | toisin kuin joukko, sallii useita esiintymiä kullekin sisältämälleen elementille
 
 
 ### N
@@ -271,7 +267,7 @@ overloading | kuormittaminen | joillakin ohjelmointikielillä funktion ylikuormi
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-parent class | kantaluokka
+parent class | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi aliluokka periytyy
 pattern language | mallikieli | kokoelma suunnittelumalleja, jotka muodostavat suunnittelumetodologian
 plugin | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 pointer | osoitin | ohjelmoinnissa muuttuja, joka osoittaa toiseen muuttujaan
@@ -300,10 +296,8 @@ range | väli | lukuavaruuden osa, jonka määrittelemiseen tarvitaan vähintä�
 re-usability | uudelleenkäytettävyys | olemassa olevan omaisuuden käyttöä jossain muodossa ohjelmistotuotteen kehitysprosessissa
 regular expression | säännöllinen lauseke | lauseke, jolla poimitaan merkkiyhdistelmiä merkkijonoista
 reference | viite | osoite, joka sallii jonkin tiedon käytön, osoitin
-reference copy | viitekopiointi 
+reference copy | viitekopiointi | objektin viitteen kopiointi, biteittäisen kopioinnin sijaan
 reflection | reflektio | tietokoneohjelman kyky tutkia, tarkastella itseään ja muokata omaa rakennettaan sekä käyttäytymistään suorituksen aikana
-repeated multiple inheritance | toistuva moniperiytyminen
-replicated multiple inheritance | erotteleva moniperiytyminen
 root certificate | juurivarmenne | julkisen avaimen varmenne, joka tunnistaa päävarmenteen myöntäjän
 
 
@@ -317,11 +311,9 @@ sequence diagram (UML) | sekvenssikaavio | kaavio, joka osoittaa objektien vuoro
 server | palvelin | tietokone, joka ajaa yhtä tai useampaa palvelinohjelmaa
 server software | palvelinohjelma | tietokoneohjelma, joka palvelee muita ohjelmia suorittamalla pyydettäessä tietyn toiminnon
 session | istunto | jonkin palvelun yhteyden ottajalle luotu tilatieto
-set | joukko
-setter | aseta-jäsenfunktio
-shallow copy | matalakopiointi
-shared aggregate | jaettu kooste
-shared multiple inheritance | yhdistävä moniperiytyminen
+set | joukko | abstrakti tietotyyppi, joka voi tallentaa uniikkeja arvoja ilman erityistä järjestystä
+setter | aseta-jäsenfunktio | funktio, jota käytetään jonkin muuttujan arvon muuttamiseen
+shallow copy | matalakopiointi | biteittäinen kopio objektista
 shell | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
 smart pointer | älykäs osoitin | abstrakti tietotyyppi, joka simuloi osoitinta tarjoamalla lisäominaisuuksia, kuten automaattinen muistin hallinta tai rajojen tarkistaminen
 software | ohjelmisto | ohjelmat ja muut tietokoneen käyttämät toiminnot
@@ -329,10 +321,9 @@ source code | lähdekoodi | tekstimuotoinen lista komennoista, jotka kootaan suo
 spam | roskaposti | sähköpostitse tapahtuvaa, usein mainoksia sisältävää massapostitusta, johon ei ole etukäteen saatu vastaanottajan lupaa
 specialization | erikoistaminen | olio-ohjelmoinnissa erikoistuminen tarkoittaa uusien aliluokkien luomista olemassa olevasta luokasta
 state machine | tilakone | konsepti, jota käytetään tietokoneohjelmien tai digitaalisen logiikan suunnittelussa
-static data member | luokkamuuttuja
+static data member | luokkamuuttuja | luokan jäsen, joka esitellään käyttämällä esim. static-avainsanaa. Staattisesta jäsenestä on vain yksi kopio luokassa, vaikka luokasta olisi monia eriäviä instansseja
 stream | virta | lähettää tai vastaanottaa tietoja, erityisesti video- ja äänimateriaalia Internetin välityksellä jatkuvana virtauksena
 streaming | suoratoisto | videokuvan ja/tai äänen välittäminen suorana lähetyksenä Internetissä
-stream iterator | virtaiteraattori
 subclass | aliluokka | olio-ohjelmoinnissa luokka, joka periytyy toisesta luokasta
 superclass | kantaluokka | olio-ohjelmoinnissa luokka, josta yksi tai useampi luokka periytyy
 
@@ -345,8 +336,7 @@ tab | välilehti | graafisen käyttöliittymän elementti, joka mahdollistaa sis
 tag | tunniste | jollekin tai johonkin liitetty etiketti tunnistamista tai muiden tietojen antamista varten
 taskbar | tehtäväpalkki | palkki graafisen käyttöliittymän näytön reunalla, joka mahdollistaa nopean pääsyn nykyisiin- tai suosikkisovelluksiin
 template | malli | monimutkaisen järjestelmän rakenne ja toimintatapa
-template specialization | mallin erikoistus
-temporary object | väliaikaisolio
+temporary object | väliaikaisolio | nimeämätön objekti, johon ei voi osoittaa muuttujalla
 timestamp | aikaleima | tallennettu tieto jonkin tapahtuman ajankohdasta
 try-block | valvontalohko | koodilohko, jossa odotetaan tapahtuvan poikkeuksia
 type cast | tyyppimuunnos | menetelmä entiteetin muuttamiseksi tietotyypistä toiseen
@@ -366,10 +356,9 @@ user profile | käyttäjäprofiili | käyttäjään liitetty kokoelma asetuksia 
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-valid iterator | kelvollinen iteraattori
 vector | vektori | ohjelmoinnissa taulukko, joka on yksiulotteinen
-version control | versionhallinta
-virtual function | virtuaalifunktio
+version control | versionhallinta | dokumenttien, tietokoneohjelmien ja muiden tietokokoelmien muutosten hallintajärjestelmä
+virtual function | virtuaalifunktio | olio-ohjelmoinnissa aliluokkaan periytyvä funktio, jonka odotetaan ylikirjoitettavan aliluokan toimesta
 virtual memory | näennäismuisti | keskusmuistina ohjelmistolle näkyvä muisti, joka tallennetaan osittain kiintolevylle sivutukseksi kutsutun prosessin avulla
 virtual reality (VR) | virtuaalitodellisuus | tietokonesimulaation tuottamien aistimusten avulla luotu keinotekoinen ympäristö
 vulnerability | haavoittuvuus | tietoturva-aukko
