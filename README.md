@@ -388,4 +388,4 @@ wireless local area network | langaton lähiverkko | langaton tietokoneverkko, j
 - [Wikipedia](https://fi.wikipedia.org)
 - Sanastokeskus TSK ry - [Tietotekniikan termitalkoot](http://www.tsk.fi/tsk/termitalkoot/)
 - [Techopedia](https://www.techopedia.com)
-- [Git- ja GitHub-sanasto)](https://www.cs.helsinki.fi/u/hisahi/sanastot/git_github.html)
+- [Git- ja GitHub-sanasto](https://www.cs.helsinki.fi/u/hisahi/sanastot/git_github.html)
