@@ -1,4 +1,6 @@
-# IT-sanasto
+<p align="center">
+  <img src="https://github.com/HankiDesign/IT-sanasto/blob/master/it-sanasto-logo.png">
+</p>
 
 Tämän projektin tarkoitus on kerätä yhteen ajantasainen IT-alan englanti-suomi -sanasto, jota voidaan käyttää pohjana uuden aineiston kirjoittamisessa sekä olemassaolevan materiaalin kääntämisessä. Sanastoon ei lisätä sokeasti kaikkia mahdollisia aiheeseen liittyviä termejä, vaan niiden lisäämisessä käytetään maalaisjärkeä. Liian suuresta sanastosta ei ole monellekaan hyötyä.
 
