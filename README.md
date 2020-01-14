@@ -271,7 +271,7 @@ precondition | esiehto | ehto tai predikaatti, jonka on oltava aina totta juuri 
 prompt | kehote | teksti, jota käytetään kuvaamaan järjestelmän valmiutta suorittaa seuraava komento
 proxy | välityspalvelin | palvelin, johon opetaan yhteys varsinaisen resurssin lisältävän palvelimen sijaan, ja joka välittää liikenteen oikealle palvelimelle
 processor | suoritin | tietokoneen osa, jossa toimintoja ohjataan ja suoritetaan
-pull (version control) | komento, jota käytetään paikallisen version päivittämiseen ulkoisesta lähteestä
+pull (version control) | vetää | komento, jota käytetään paikallisen version päivittämiseen ulkoisesta lähteestä
 pure virtual function | puhdas virtuaalifunktio | virtuaalifunktio, joka aliluokan on toteutettava, jos aliluokka ei ole abstrakti
 push (version control) | työntää | komento, jota käytetään paikallisen version muutoksien työntämiseen ulkoiseen lähteeseen
 
