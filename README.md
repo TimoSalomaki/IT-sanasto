@@ -105,14 +105,14 @@ click | klikata | napsauttaa tietokoneen hiiren (tai muun kursoria ohjaavan lait
 client | asiakasohjelma | tietokonelaitteisto tai ohjelmisto, joka käyttää palvelimen tarjoamaa palvelua
 clipboard | leikepöytä | väliaikainen säilö, jolla tiedostosta leikattua tai kopioitua materiaalia pidetään toiseen tiedostoon liittämistä varten.
 clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
-clone (version control) | kloonata
+clone (version control) | kloonata | versionhallinnassa uuden tietovaraston luominen toisen tietovaraston pohjalta
 closure | sulkeuma |toiminto, jolla on oma ympäristö. Tässä ympäristössä on ainakin yksi sidottu muuttuja (nimi, jolla on arvo, kuten numero)
 command interpreter | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
 component | komponentti | käsitteellinen osa suuremmasta kokonaisuudesta
 composite | kokoelma | asia, joka koostuu useista osista tai elementeistä 
 computing | tietojenkäsittely | tiedon keräämistä, muokkaamista, lajittelua, varastoimista ja jakamista
 const | vakio | arvoltaan muuttumaton suure/tietue
-constant complexity | vakioaikainen kompleksisuus
+constant complexity | vakioaikainen kompleksisuus | kuvaa algoritmin kompleksisuutta silloin, kun algoritmin suoritusaika tai muistintarve ei muutu syötteen koon muuttuessa
 constructor | rakentaja | luokan tai rakenteen erityinen menetelmä olio-ohjelmoinnissa, joka alustaa kyseisen tyyppisen objektin
 container | säiliö/kontti | sovelluspaketti, joka sisältää kaiken, mitä sen ajamiseen tarvitaan
 continuous delivery | jatkuva toimitus | ohjelmistosuunnittelumenetelmä, jossa tiimit tuottavat ohjelmistoja lyhyinä jaksoina varmistaen, että ohjelmistot voidaan luotettavasti julkaista milloin tahansa
@@ -294,6 +294,7 @@ regular expression | säännöllinen lauseke | lauseke, jolla poimitaan merkkiyh
 reference | viite | osoite, joka sallii jonkin tiedon käytön, osoitin
 reference copy | viitekopiointi | objektin viitteen kopiointi, biteittäisen kopioinnin sijaan
 reflection | reflektio | tietokoneohjelman kyky tutkia, tarkastella itseään ja muokata omaa rakennettaan sekä käyttäytymistään suorituksen aikana
+repository | tietovarasto | versionhallinnassa tiedostovarasto, johon voidaan talllentaa useita versioita samoista tiedostosta
 root certificate | juurivarmenne | julkisen avaimen varmenne, joka tunnistaa päävarmenteen myöntäjän
 
 
@@ -301,7 +302,7 @@ root certificate | juurivarmenne | julkisen avaimen varmenne, joka tunnistaa pä
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-scope resolution operator | näkyvyystarkenninoperaattori
+scope resolution operator | näkyvyystarkenninoperaattori | auttaa tunnistamaan ja määrittelemään kontekstin, johon tunniste viittaa, erityisesti määrittämällä nimiavaruuden
 screenshot | ruutukaappaus | kuva, joka on otettu siitä mitä tietokoneen ruudulla tapahtuu juuri sillä hetkellä
 sequence diagram (UML) | sekvenssikaavio | kaavio, joka osoittaa objektien vuorovaikutukset aikajärjestyksessä
 server | palvelin | tietokone, joka ajaa yhtä tai useampaa palvelinohjelmaa
