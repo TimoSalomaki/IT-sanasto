@@ -54,7 +54,7 @@ access control | käyttöoikeuksien hallinta | tietoturvatekniikka, joka sääte
 adaptive system | mukautuva järjestelmä | joukko todellisia tai teoreettisia elementtejä, jotka muodostavat sellaisen kokonaisuuden, joka yhdessä pystyy vastaamaan ympäristön muutoksiin reagoivilla osillaan. 
 addon | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 aggregate | kooste | erillisistä osista koostettu joukko
-agile development | ketterä kehitys
+agile development | ketterä kehitys | ohjelmistokehitysmenetelmä, joka käyttää iteratiivista suunnittelu-, kehitys- ja käyttöönottoprosessia vastatakseen muuttuviin asiakkaan tarpeisiin varmistaen samalla prototyyppien nopean kehityksen
 allocate | varata | osoittaa tai varata resurssi tiettyä käyttökohdetta varten. Esimerkiksi, keskusmuistia voidaan varata sovellusta varten
 allocator | varain | komponentti joka varaa jotain resurssia, esim. keskusmuistia jotain käyttökohdetta varten
 argument | argumentti | muuttuja, jolla välitetään tietoa funktiolle
@@ -78,9 +78,10 @@ binary | binääri | binäärijärjestelmän mukainen luku
 bit | bitti | datan pienin yksikkö; yksi binäärinen luku, jonka arvo on 1 tai 0
 bitmap | bittikartta | digitaalinen kuva, joka koostuu pistematriisista
 bitset | bittivektori | taulukkomuotoinen tietorakenne, joka tallentaa bitit kompaktisti
-bitwise | biteittäinen
+bitwise | biteittäinen | ohjelmointikielen operaattori, joka manipuloi sanan tai tavun yksittäisiä bittejä 
 blockchain | lohkoketju | hajautettu tietokanta, jossa transaktiot on tallennettu kryptografisesti allekirjoitettuina lohkoina ja jaettu verkkoon osallistujien kesken
 boolean | totuusarvomuuttuja | muuttuja, jolla voi olla yksi kahdesta mahdollisesta arvosta, 0 (väärä) tai 1 (tosi)
+branch | haara | versionhallinnassa kehityksen aktiivinen haara, esim. master (päähaara) tai jokaista ominaisuutta varten tehtävä uusi oksa, jossa kehitystyö tehdään ja lopuksi oksa yhdistetään pääoksaan
 bracket | sulku | käytetään sulkemaan sanoja tai numeroita niiden erottamiseksi asiayhteydestä, () [] {}〈〉
 breakpoint | keskeytyskohta | paikka tietokoneohjelmassa, jossa komentojen sekvenssi keskeytyy, etenkin toisen ohjelman tai operaattorin toimesta
 bridge | silta | tietoverkkolaite, joka tarjoaa yhteyden muihin siltaverkkoihin, jotka käyttävät samaa protokollaa
@@ -96,16 +97,14 @@ call by value | arvonvälitys | menetelmä argumenttien siirtämiseksi funktioll
 call-through function | läpikutsufunktio
 catch (exceptions) | siepata
 certificate | varmenne
-class | luokka
-class definition | luokan esittely
-class hierarchy | luokkahierarkia
-class invariant | luokkainvariantti
-class object | luokkaolio
-class template | luokkamalli
-class template partial specialization | luokkamallin osittaiserikoistus
+class | luokka | olio-ohjelmoinnissa laajennettava ohjelmakoodimalli objektien luomiseksi, tarjoaa alkuarvot tilalle ja toiminnallisuuden toteutuksille
+class hierarchy | luokkahierarkia | oliotyyppiluokittelu, joka merkitsee objekteja luokkien ilmentyminä, jotka liittyvät toisiinsa erilaisilla suhteilla kuten **perii**, **laajentaa**, **on abstrakti**
+class invariant | luokkainvariantti | ominaisuus, joka on luokan kaikissa esiintymissä, riippumatta siitä, mitä muu koodi tekee
+class object | luokkaolio | luokkaolio on minkä tahansa luokan konkreettinen esiintymä, joka on olemassa yleensä tietokoneohjelman ajon aikana
+class template | luokkamalli | malli luokkien generoimiseksi parametrien perusteella
 click | klikata | napsauttaa tietokoneen hiiren (tai muun kursoria ohjaavan laitteen) painiketta
-client | asiakasohjelma
-clipboard | leikepöytä
+client | asiakasohjelma | tietokonelaitteisto tai ohjelmisto, joka käyttää palvelimen tarjoamaa palvelua
+clipboard | leikepöytä | väliaikainen säilö, jolla tiedostosta leikattua tai kopioitua materiaalia pidetään toiseen tiedostoon liittämistä varten.
 clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
 clone (version control) | kloonata
 closure | sulkeuma |toiminto, jolla on oma ympäristö. Tässä ympäristössä on ainakin yksi sidottu muuttuja (nimi, jolla on arvo, kuten numero)
@@ -394,3 +393,4 @@ wireless local area network | langaton lähiverkko | langaton tietokoneverkko, j
 - [Wikipedia](https://fi.wikipedia.org)
 - Sanastokeskus TSK ry - [Tietotekniikan termitalkoot](http://www.tsk.fi/tsk/termitalkoot/)
 - [Techopedia](https://www.techopedia.com)
+- [Git- ja GitHub-sanasto)](https://www.cs.helsinki.fi/u/hisahi/sanastot/git_github.html)
