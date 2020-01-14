@@ -54,6 +54,7 @@ access control | käyttöoikeuksien hallinta | tietoturvatekniikka, joka sääte
 adaptive system | mukautuva järjestelmä | joukko todellisia tai teoreettisia elementtejä, jotka muodostavat sellaisen kokonaisuuden, joka yhdessä pystyy vastaamaan ympäristön muutoksiin reagoivilla osillaan. 
 addon | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 aggregate | kooste | erillisistä osista koostettu joukko
+agile development | ketterä kehitys
 allocate | varata | osoittaa tai varata resurssi tiettyä käyttökohdetta varten. Esimerkiksi, keskusmuistia voidaan varata sovellusta varten
 allocator | varain | komponentti joka varaa jotain resurssia, esim. keskusmuistia jotain käyttökohdetta varten
 argument | argumentti | muuttuja, jolla välitetään tietoa funktiolle
@@ -149,6 +150,7 @@ dynamic binding | dynaaminen sitominen
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+edge processor | reunalaskentasuoritin
 encapsulation | kapselointi | yhteen kuuluvien tietojen ja toimintojen kokoaminen yhdeksi kokonaisuudeksi
 exception | poikkeus | ohjelmakoodin suorituksen aikana tapahtunut virhetilanne
 exception handler | poikkeuskäsittelijä | eräissä ohjelmointikielissä virhetilanteen hallintaan käytetty keino estää ohjelman pysähtyminen
@@ -275,6 +277,7 @@ postcondition | jälkiehto | ehto tai predikaatti, jonka on oltava aina totta he
 precondition | esiehto | ehto tai predikaatti, jonka on oltava aina totta juuri ennen koodiosan tai operaation suorittamista
 prompt | kehote | teksti, jota käytetään kuvaamaan järjestelmän valmiutta suorittaa seuraava komento
 proxy | välityspalvelin | palvelin, johon opetaan yhteys varsinaisen resurssin lisältävän palvelimen sijaan, ja joka välittää liikenteen oikealle palvelimelle
+processor | suoritin
 pull (version control) | komento, jota käytetään paikallisen version päivittämiseen ulkoisesta lähteestä
 pure virtual function | puhdas virtuaalifunktio | virtuaalifunktio, joka aliluokan on toteutettava, jos aliluokka ei ole abstrakti
 push (version control) | työntää | komento, jota käytetään paikallisen version muutoksien työntämiseen ulkoiseen lähteeseen
