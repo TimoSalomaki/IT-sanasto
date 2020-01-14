@@ -94,9 +94,8 @@ Englanti | Suomi | Selitys
 ---------| ------| -------
 cache | välimuisti | pieni, nopea muisti, jonka tehtävä on nopeuttaa tietokoneen toimintaa
 call by value | arvonvälitys | menetelmä argumenttien siirtämiseksi funktiolle, kopioi argumentin todellisen arvon funktion muodolliseen parametriin
-call-through function | läpikutsufunktio
-catch (exceptions) | siepata
-certificate | varmenne
+catch (exceptions) | siepata | valvontalohkossa tapahtuvan virheen tunnistus ja käsittely
+certificate | varmenne | ainutlaatuinen, digitaalisesti allekirjoitettu asiakirja, joka tunnistaa valtuutetusti yksilön tai organisaation henkilöllisyyden
 class | luokka | olio-ohjelmoinnissa laajennettava ohjelmakoodimalli objektien luomiseksi, tarjoaa alkuarvot tilalle ja toiminnallisuuden toteutuksille
 class hierarchy | luokkahierarkia | oliotyyppiluokittelu, joka merkitsee objekteja luokkien ilmentyminä, jotka liittyvät toisiinsa erilaisilla suhteilla kuten **perii**, **laajentaa**, **on abstrakti**
 class invariant | luokkainvariantti | ominaisuus, joka on luokan kaikissa esiintymissä, riippumatta siitä, mitä muu koodi tekee
@@ -109,7 +108,6 @@ clock rate | kellotaajuus | laitteen/piirin kellopulssin taajuus (yksikkö Hz)
 clone (version control) | kloonata
 closure | sulkeuma |toiminto, jolla on oma ympäristö. Tässä ympäristössä on ainakin yksi sidottu muuttuja (nimi, jolla on arvo, kuten numero)
 command interpreter | komentotulkki | tietokoneen ohjelma, joka ottaa vastaan kirjoitettuja komentoja ja muuntaa ne käyttöjärjestelmän kielelle
-compile-time complexity | käännösaikainen tehokkuus
 component | komponentti | käsitteellinen osa suuremmasta kokonaisuudesta
 composite | kokoelma | asia, joka koostuu useista osista tai elementeistä 
 computing | tietojenkäsittely | tiedon keräämistä, muokkaamista, lajittelua, varastoimista ja jakamista
@@ -128,33 +126,31 @@ cursor | kohdistin | käyttöliittymän osa, joka osoittaa, mihin kohtaan syöte
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-data member | jäsenmuuttuja
-debugger | virheenkorjaaja
-deep copy | syväkopiointi
-default constructor | oletusrakentaja
-derived class | aliluokka
-descendant | jälkeläinen
-Design By Contract | sopimussuunnittelu
+debugger | virheenkorjaaja | tietokoneohjelma, joka auttaa muiden tietokoneohjelmien virheiden havaitsemisessa ja korjaamisessa
+deep copy | syväkopiointi | tekniikka, jolla kopio objektista luodaan siten, että se sisältää kopiot luokan jäsenistä ja muista objekteista, joihin viitejäsenet osoittavat
+default constructor | oletusrakentaja | rakentaja, jonka kääntäjä luo automaattisesti ilman ohjelmoijan määrittelemiä rakentajia
+derived class | aliluokka | olio-ohjelmoinnissa luokka, joka täydentää ja erikoistaa yliluokan määrittelyitä
+Design By Contract | sopimussuunnittelu | ohjelmiston oikeellisuuden menetelmä, joka käyttää ennakko- ja jälkiehtoja dokumentoidakseen tai vahvistaakseen ohjelman osan aiheuttaman tilanmuutoksen
 design pattern | suunnittelumalli | geneerinen, uudelleenkäytettävä ratkaisu yleisesti esiintyvään ongelmaan ohjelmistokehityksessä
 desktop | työpöytä | tietokoneen käyttöjärjestelmän graafisen käyttöliittymän perusnäkymä, jonka päälle ikkunat aukeavat
 destructor | purkaja | olio-ohjelmoinnissa luokan jäsenfunktio, joka suoritetaan olion varaamaa muistia vapautettaessa
 directory | hakemisto | tiedostojärjestelmään hierarkisesti varattu paikka tiedostoille
-double-ended queue | pakka
-drag and drop | raahaa ja pudota
+double-ended queue | pakka | abstrakti jonon yleistävä tietotyyppi, jolle elementtejä voidaan lisätä tai poistaa eteen tai taakse.
+drag and drop | raahaa ja pudota | kuvan, korostetun tekstin tai muun raahattavan elementin siirtäminen toiseen näytön osaan hiirellä tai vastaavalla syötelaitteella
 driver | ajuri | ohjelma, joka ohjaa tietokoneeseen liitetyn oheislaitteen toimintaa
-dynamic binding | dynaaminen sitominen
+dynamic binding | dynaaminen sitominen | rosessikutsun linkittäminen tiettyyn ohjelmakutsujen listaan ajon aikana
 
 
 ### E
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
-edge processor | reunalaskentasuoritin
+edge processor | reunalaskentasuoritin | esineiden internet -anturi tai -laite, jossa voidaan suorittaa logiikkaa ja käsitellä dataa, kaistanleveyden ja/tai vasteajan pienentämiseksi
 encapsulation | kapselointi | yhteen kuuluvien tietojen ja toimintojen kokoaminen yhdeksi kokonaisuudeksi
 exception | poikkeus | ohjelmakoodin suorituksen aikana tapahtunut virhetilanne
 exception handler | poikkeuskäsittelijä | eräissä ohjelmointikielissä virhetilanteen hallintaan käytetty keino estää ohjelman pysähtyminen
-exception specification | poikkeusmääre
-extension (file name) | tarkennin
+exception specification | poikkeusmääritys |toimintojen ja muun ohjelman välinen sopimus, joka takaa että toiminto ei heitä poikkeuksia, joita ei ole lueteltu poikkeusmäärityksessä
+extension (file name) | tarkennin | tunniste, joka on määritetty jälkiliitteenä tietokoneen tiedoston nimeen, osoittaen tiedoston sisällön tai sen käyttötarkoituksen
 extension (component) | lisäosa | esimerkiksi sovellukseen liitettävä komponentti, joka laajentaa sen toiminnallisuuta, kuulumatta kuitenkaan alunperin sovellukseen
 
 
@@ -163,12 +159,11 @@ extension (component) | lisäosa | esimerkiksi sovellukseen liitettävä kompone
 Englanti | Suomi | Selitys
 ---------| ------| -------
 feed | syöte | tietokoneohjelmalle annettava ulkopuolinen data; tarkoittaa paitsi tekstiä myös yksittäisiä näppäinpainalluksia, hiiren klikkauksia yms.
-forward declaration | ennakkoesittely
+forward declaration | ennakkoesittely | ilmoitus tunnuksesta, jolle ohjelmoija ei ole vielä antanut täydellistä määritelmää
 framework | Ohjelmistokehys | konkreettinen tai käsitteellinen alusta, jonka koodin ja geneerisen toiminnallisuuden kehittäjät tai käyttäjät voivat valikoivasti erikoistaa, tai ohittaa. Kehykset ovat kirjastojen muodossa, joissa tarkkaan määritelty sovellusohjelmarajapinta (API) on käytettävissä uudelleen missä tahansa kehitteillä olevan ohjelmiston alueella.
-function pointer | funktio-osoitin
-function template | funktiomalli
-function try block | funktion valvontalohko
-functor | funktio-olio
+function pointer | funktio-osoitin | osoitin, joka osoittaa funktioon
+function template | funktiomalli | käyttäytyy kuin funktio, paitsi että mallissa voi olla monen tyyppisiä argumentteja
+function try block | funktion valvontalohko | ohjelmakoodin osio, joka vastaa heitettyyn poikkeukseen esim. uudelleen heittämällä siepattu poikkeus tai lopettamalla ohjelman 
 
 
 ### G
@@ -177,10 +172,9 @@ Englanti | Suomi | Selitys
 ---------| ------| -------
 garbage collection | roskienkeruu | automaattinen toiminto, joka vapauttaa tilaa tietokoneen muistissa poistamalla tietoja, joita ei enää tarvita tai käytetä.
 generalization | yleistäminen | abstraktion muoto, jossa tiettyjen tapausten yhteiset ominaisuudet muotoillaan yleisiksi käsitteiksi tai vaatimuksiksi
-generic algorithm | geneerinen algoritmi
-generic programming | geneerinen ohjelmointi
-genericity | yleiskäyttöisyys
-getter | anna-jäsenfunktio
+generic programming | geneerinen ohjelmointi | tietokoneohjelmoinnin tyyli, jossa algoritmit kirjoitetaan myöhemmin tarkennettaviksi tyypeiksi, jotka sitten muutetaan tarvittaessa tietyiksi parametreina toimitetuiksi tyypeiksi
+genericity | yleiskäyttöisyys | ominaisuus, joka kuvaa asian laajaa käytettävyyttä erilaisiin käyttötarkoituksiin
+getter | anna-jäsenfunktio | funktio, jota käytetään jonkin muuttujan arvon palauttamiseen
 
 
 ### H
@@ -276,7 +270,7 @@ postcondition | jälkiehto | ehto tai predikaatti, jonka on oltava aina totta he
 precondition | esiehto | ehto tai predikaatti, jonka on oltava aina totta juuri ennen koodiosan tai operaation suorittamista
 prompt | kehote | teksti, jota käytetään kuvaamaan järjestelmän valmiutta suorittaa seuraava komento
 proxy | välityspalvelin | palvelin, johon opetaan yhteys varsinaisen resurssin lisältävän palvelimen sijaan, ja joka välittää liikenteen oikealle palvelimelle
-processor | suoritin
+processor | suoritin | tietokoneen osa, jossa toimintoja ohjataan ja suoritetaan
 pull (version control) | komento, jota käytetään paikallisen version päivittämiseen ulkoisesta lähteestä
 pure virtual function | puhdas virtuaalifunktio | virtuaalifunktio, joka aliluokan on toteutettava, jos aliluokka ei ole abstrakti
 push (version control) | työntää | komento, jota käytetään paikallisen version muutoksien työntämiseen ulkoiseen lähteeseen
