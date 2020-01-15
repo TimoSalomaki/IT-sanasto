@@ -9,13 +9,6 @@ IT-ala elää koko ajan ja uusia teknologioita tuodaan markkinoille kiihtyväll�
 Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilpailevia käännöksiä. Näissä tapauksessa pyrin mahdollisuuksien mukaan valitsemaan yleisimmin käytössä olevan käännöksen, jotta lista pysyy konsistenttina ja helposti luettavana.
 
 
-## Selite
-
-:warning: Sopiva käännös puuttuu
-
-:uk: Ei käännöstä, englanninkielinen sana on yleisessä käytössä suomenkielisessä materiaalissa
-
-
 ## Kategoriat
 
 * [Ohjelmointi](ohjelmointi-sanasto.md)
