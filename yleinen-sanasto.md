@@ -1,7 +1,8 @@
-# Yleinen sanasto
+# Yleinen
 
-[Muut kategoriat](README.md)
+Tämä lista käsittää yleisiä IT-alan sanoja, jotka eivät kuulu suoraan [ohjelmointi](ohjelmointisanasto.md)- tai [tietoturvakategoriaan](tietoturvasanasto.md).
 
+[Aloitussivulle](README.md)
 
 ## Selite
 
