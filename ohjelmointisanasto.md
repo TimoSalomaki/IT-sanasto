@@ -1,4 +1,6 @@
-# Ohjelmointisanasto
+# Ohjelmointi
+
+Ohjelmointi on logiikan toteuttamista määritettyjen laskentatoimintojen ja toimintojen helpottamiseksi. Sitä voidaan tehdä yhdellä tai useammalla kielellä, jotka eroavat sovelluksen, toimialueen ja ohjelmointimallin mukaan.
 
 [Muut kategoriat](README.md)
 
