@@ -45,6 +45,7 @@ Tietoturva eli tietoturvallisuus tarkoittaa tiedon saatavuuden, luottamuksellisu
 Englanti | Suomi | Selitys
 ---------| ------| -------
 access control | käyttöoikeuksien hallinta | tietoturvatekniikka, joka säätelee sitä, kuka tai mikä voi tarkastella tai käyttää resursseja tietojärjestelmässä
+adware | mainosohjelma | ohjelma, joka näyttää yleensä luvatta mainoksia tietokoneen näytöllä
 authentication | todennus | käyttäjän (tai palvelun) identiteetin varmentaminen
 
 
@@ -65,7 +66,6 @@ certificate | varmenne | ainutlaatuinen, digitaalisesti allekirjoitettu asiakirj
 ### D
 
 
-
 ### E
 
 
@@ -83,19 +83,25 @@ certificate | varmenne | ainutlaatuinen, digitaalisesti allekirjoitettu asiakirj
 Englanti | Suomi | Selite
 ---------| ------| -------
 identity | identiteetti | järjestelmän tunnistama henkilön, laitteen tai näiden kahden yhdistelmän yksilöivä nimi
+information security | tietoturva
 
 
 ### J
 
 
 ### K
+Englanti | Suomi | Selitys
+---------| ------| -------
+keylogger | näppäilytallennin | tietokoneen näppäimistön painalluksia seuraava ohjelma
 
 
 ### L
 
 
 ### M
-
+Englanti | Suomi | Selitys
+---------| ------| -------
+malware | haittaohjelma
 
 ### N
 
@@ -105,6 +111,9 @@ identity | identiteetti | järjestelmän tunnistama henkilön, laitteen tai näi
 
 ### P
 
+Englanti | Suomi | Selitys
+---------| ------| -------
+privacy protection | henkilötietosuoja | lakien ja asetusten kokoelma, jonka tarkoituksena on suojata yksityishenkilöiden tietojen ja toiminnan tallennusta, levitystä ja hyödyntämistä 
 
 ### Q
 
@@ -113,18 +122,26 @@ identity | identiteetti | järjestelmän tunnistama henkilön, laitteen tai näi
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+ransomware | kiristyshaittaohjelma |  haittaohjelma, joka estää tietokoneen käytön salaamalla tietokoneen tiedostot ja kiristämällä rahaa tiedostojen avaamisesta
 root certificate | juurivarmenne | julkisen avaimen varmenne, joka tunnistaa päävarmenteen myöntäjän
-
+rootkit | :uk: *ei käännöstä* | ohjelmisto, joka asentuu tietokoneelle hyökkääjän saatua sen hallintaansa
 
 ### S
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+security breach | tietoturvaloukkaus
+security clearance | turvallisuusselvitys
+security incident | tietoturvahäiriö
 session | istunto | jonkin palvelun yhteyden ottajalle luotu tilatieto
 spam | roskaposti | sähköpostitse tapahtuvaa, usein mainoksia sisältävää massapostitusta, johon ei ole etukäteen saatu vastaanottajan lupaa
+spyware | vakoiluohjelma | ohjelma, joka kerää tietoa, kuten vierailtujen sivustojen osoitteita tai luottokorttinumeroita, ja lähettää ne isännälleen
 
 
 ### T
+Englanti | Suomi | Selitys
+---------| ------| -------
+trojan horse | troijalainen | tietokoneohjelma, joka näyttää tekevän jotain muuta kuin oikeasti tekee
 
 
 ### U
@@ -142,6 +159,7 @@ vulnerability | haavoittuvuus | tietoturva-aukko
 Englanti | Suomi | Selitys
 ---------| ------| -------
 watermark | vesileima | esimerkiksi kuvaan tai muuhun digitaaliseen tiedostoon liitettävä merkintä, josta voi tunnistaa tiedoston alkuperäisen tekijän
+worm | mato | haittaohjelma, joka leviää ilman isäntäohjelmien apua, yleensä jonkin tietoturva-aukon välityksellä tai huijaamalla käyttäjän suorittamaan itsensä
 
 
 ### X
