@@ -1,4 +1,6 @@
-# Tietoturvasanasto
+# Tietoturva
+
+Tietoturva eli tietoturvallisuus tarkoittaa tiedon saatavuuden, luottamuksellisuuden ja eheyden ylläpitämistä. Turvattava tieto voi ilmetä useassa eri muodossa
 
 [Muut kategoriat](README.md)
 
