@@ -11,8 +11,8 @@ Sanasta riippuen suomalaisessa materiaalissa saatetaan käyttää useitakin kilp
 
 ## Kategoriat
 
-* [Ohjelmointi](ohjelmointi-sanasto.md)
-* [Tietoturva](tietoturva-sanasto.md)
+* [Ohjelmointi](ohjelmointisanasto.md)
+* [Tietoturva](tietoturvasanasto.md)
 * [Yleinen](yleinen-sanasto.md)
 
 
