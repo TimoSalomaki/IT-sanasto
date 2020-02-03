@@ -108,6 +108,7 @@ feed | syöte | tietokoneohjelmalle annettava ulkopuolinen data; tarkoittaa pait
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+hardware | laitteisto | fyysinen, elektroninen laitteisto
 hashtag | aihetunniste | sosiaalisessa mediassa käytettävä ristikkomerkin ja avainsanan yhdistelmä, hashtag
 
 
