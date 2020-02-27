@@ -130,7 +130,7 @@ keyword | avainsana | tiedonhaussa ja indeksoinnissa käytetty viittaus tai merk
 Englanti | Suomi | Selitys
 ---------| ------| -------
 local area network | lähiverkko | tietokoneverkko, joka yhdistää kaksi tai useampaa laitetta langattoman viestinnän avulla paikallisverkon muodostamiseksi rajoitetulla alueella
-
+load balancing | kuormituksen tasaaminen | tietotekniikassa käytetty termi, jolla tarkoitetaan vaadittavan työmäärän jakamista kahdelle tai useammalle palvelimelle. Tyypilliset käyttökohteet on DNS-nimipalvelussa ja verkkosivujen jakamisessa.
 
 ### M
 
