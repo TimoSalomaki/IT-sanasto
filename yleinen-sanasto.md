@@ -79,6 +79,7 @@ cursor | kohdistin | käyttöliittymän osa, joka osoittaa, mihin kohtaan syöte
 
 Englanti | Suomi | Selitys
 ---------| ------| -------
+database | tietokanta | Tietokanta on tietokoneen tallentama tietojen ja informaation järjestetty kooste.
 desktop | työpöytä | tietokoneen käyttöjärjestelmän graafisen käyttöliittymän perusnäkymä, jonka päälle ikkunat aukeavat
 directory | hakemisto | tiedostojärjestelmään hierarkisesti varattu paikka tiedostoille
 drag and drop | raahaa ja pudota | kuvan, korostetun tekstin tai muun raahattavan elementin siirtäminen toiseen näytön osaan hiirellä tai vastaavalla syötelaitteella
